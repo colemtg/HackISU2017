@@ -97,7 +97,7 @@ public class Word {
         return difficulty;
     }
 
-    public ArrayList getRules() {
+    public ArrayList<Rule> getRules() {
         return rules;
     }
 
@@ -110,9 +110,9 @@ public class Word {
     }
 
     private void setDifficulty() {
-        double lengthDiff = 1.5*(word.length()/10);
-        double commonDiff = (2.5*Math.pow(1000,(double)commonality/1000)/1000);
-        double pronDiff = 0.6*compare();
+        double lengthDiff = 1.5*((double)word.length()/(double)10);
+        double commonDiff = (2.5*Math.pow(1000,(double)commonality/(double)1000)/(double)1000);
+        double pronDiff = (double)6*compare();
         this.difficulty = lengthDiff + commonDiff + pronDiff;
     }
     public void addRule(Rule rule){
