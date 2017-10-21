@@ -28,24 +28,21 @@ public class Pool {
                     currentFrequency=currentFrequency-(oldF-tempF);
                 }
                 //limit this in some way
-                if(NotPool.getRulesInPool().containsKey(word.getRules().get(i).getHashCode())) //if notPool has rule
+                if(word.getFrequency()<.33) //5 incidental instances
                 {
-                    if(NotPool.getRulesInPool().get(word.getRules().get(i).getHashCode()).size()!=0) //if word in that rule
+                    if (NotPool.getRulesInPool().containsKey(word.getRules().get(i).getHashCode())) //if notPool has rule
                     {
-                        addWordToPool(NotPool.getRulesInPool().get(word.getRules().get(i).getHashCode()).get(0));
-                    }
-                    else
-                        if(NotPool.getWordsInPool().size()!=0)
+                        if (NotPool.getRulesInPool().get(word.getRules().get(i).getHashCode()).size() != 0) //if word in that rule
                         {
+                            addWordToPool(NotPool.getRulesInPool().get(word.getRules().get(i).getHashCode()).get(0));
+                        } else if (NotPool.getWordsInPool().size() != 0) {
                             addWordToPool(NotPool.getWordsInPool().get(0));
                         }
-                }
-                else
-                    if(NotPool.getWordsInPool().size()!=0)
-                    {
+                    } else if (NotPool.getWordsInPool().size() != 0) {
                         currentFrequency = currentFrequency + NotPool.getWordsInPool().get(i).getFrequency();
                         addWordToPool(NotPool.getWordsInPool().get(0));
                     }
+                }
 
             }
 

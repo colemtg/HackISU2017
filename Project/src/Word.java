@@ -109,9 +109,9 @@ public class Word {
     }
 
     private void setDifficulty() {
-        double lengthDiff = 1.5*((double)word.length()/(double)10);
-        double commonDiff = 2.5*Math.pow(1000,(double)commonality/(double)1000)/(double)1000;
-        double pronDiff = (double)6*compare();
+        double lengthDiff = 2.5*((double)word.length()/(double)10);
+        double commonDiff = (double)2*Math.pow(1000,(double)commonality/(double)1000)/(double)1000;
+        double pronDiff = 5.5*compare();
         this.difficulty = lengthDiff + commonDiff + pronDiff;
     }
     public void addRule(Rule rule){
