@@ -2,7 +2,6 @@ the%thə%�adj. (called the definite article) 1 denoting person(s) or thing(s) 
 of%əv%-  see *ob-.
 to%tə%-do  n. (pl. -s) commotion or fuss.
 and%and%conj. 1 a connecting words, clauses, or sentences, to be taken jointly (you and i). b implying progression (better and better). c implying causation (she hit him and he cried). d implying great duration (cried and cried). e implying a great number (miles and miles). f implying addition (two and two). g implying variety (there are books and books). 2 colloq. to (try and come). 3 in relation to (britain and the ec).  and/or either or both of two stated alternatives. [old english]
-a%ā%.s.a.p.  abbr. as soon as possible.
 in%in%vitro  adv. (of biological processes) taking place in a test-tube or other laboratory environment. [latin, = in glass]
 is%iz%3rd sing. present of *be.
 it%it%'s  contr. 1 it is. 2 it has.
@@ -15,7 +14,6 @@ on%ȯn%-street  adj. (esp. of parking) along a street.
 are%er%2  n. metric unit of measure, 100 square metres. [latin: related to *area]
 with%with%prep. expressing: 1 instrument or means used (cut with a knife). 2 a association or company (lives with his mother; works with shell). b parting of company (dispense with). 3 cause (shiver with fear). 4 possession (man with dark hair; filled with water). 5 circumstances (sleep with the window open). 6 manner (handle with care). 7 agreement (sympathize with). 8 disagreement, antagonism (incompatible with; quarrel with). 9 understanding (are you with me?). 10 reference or regard (be patient with them; how are things with you?).  away (or in or out etc.) with (as int.) take, send, or put (a person or thing) away (or in or out etc.). with it colloq. 1 up to date. 2 alert and comprehending. with that thereupon. [old english]
 as%əz%2  n. (pl. asses) roman copper coin. [latin]
-I%ī%null
 his%hiz%poss. pron. 1 (attrib.) of or belonging to him or himself (his house; his own business). 2 the one or ones belonging to or associated with him (it is his; his are over there).  of his of or belonging to him (friend of his). [old english, genitive of *he]
 they%thā%'ve  contr. they have.
 be%bē%v. (sing. present am; are; is; past was; were; pres. part. being; past part. been) 1 exist, live (i think, therefore i am; there is no god). 2 a occur; take place (dinner is at eight).
@@ -998,3 +996,5 @@ quotient%kwōshənt%n. result of a division sum. [latin quotiens -ent- how many 
 teeth%tēth%pl. of *tooth.
 shell%shel%-shock  n. nervous breakdown caused by warfare.  shell-shocked adj.
 neck%nek%and neck  adj. & adv. (running) level in a race etc.
+somebody%səmbədē%one or some person of unspecified or indefinite identity
+magazine%magəzēn%a periodical containing miscellaneous pieces (such as articles, stories, poems) and often illustrated

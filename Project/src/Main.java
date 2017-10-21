@@ -23,14 +23,14 @@ public class Main {
         notPool.sortWords();
         Pool pool = new Pool();
         //add first 100 and remove 100
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 100; i++) {
             Pool.addWordToPool( notPool.getWordsInPool().get(0));
         }
         Scanner input =new Scanner(System.in);
         Word word;
         String in;
         System.out.print("Spell word: ");
-        for(int i=0; i<10; i++) {
+        for(int i=0; i<100; i++) {
             System.out.println("current frequency: " + Pool.getCurrentFrequency());
             for(int j =0;j<Pool.getWordsInPool().size(); j++ )
             {

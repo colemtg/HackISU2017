@@ -172,7 +172,7 @@ public class HelloWorldSpeechlet implements Speechlet
     }
 
 
-
+    //call to generateRandom
     private String getWordForUserToGuess()
     {
         //return Pool.generateWord().getWord();
