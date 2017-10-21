@@ -30,4 +30,12 @@ public class NotPool {
         return rulesInPool;
     }
     public void sortWords(){wordsInPool.sort(Comparator.comparing(Word::getDifficulty));}
+    public void removeWord(Word word){
+        wordsInPool.remove(word);
+        for (int i=0; i<word.getRules().size(); i++){
+            if (rulesInPool.containsKey((word.getRules().get(i).getFrom()+word.getRules().get(i).getTo()).hashCode())){
+                rulesInPool.get((word.getRules().get(i).getFrom()+word.getRules().get(i).getTo()).hashCode()).remove(word);
+            }
+        }
+    }
 }

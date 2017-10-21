@@ -16,9 +16,6 @@ public class Main {
             int commonality=1;
             while ((line=bufferedReader.readLine())!=null) {
                 String[] split = line.split(" ");
-                if (split[0].equals(split[1])){
-                    System.out.println(split[0]);
-                }
                 Word currWord = new Word(split[0],split[1],"",commonality );
                 notPool.addWordToPool(currWord);
                 commonality++;
@@ -27,10 +24,12 @@ public class Main {
             e.printStackTrace();
         }
         notPool.sortWords();
-        ArrayList<Word> testList = new ArrayList<Word>();
-        testList = notPool.getWordsInPool();
-        for (int i=0;i<100; i++){
-            System.out.println(testList.get(i).getWord()+" "+testList.get(i).getDifficulty());
+        //initialize original pool
+        ArrayList<Word> totalWords = notPool.getWordsInPool();
+        Pool pool = new Pool();
+        for (int i=0; i<100; i++){
+            pool.addWordToPool(totalWords.get(0));
+            notPool.removeWord(totalWords.get(0));
         }
     }
 }
