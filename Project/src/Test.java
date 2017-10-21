@@ -6,8 +6,6 @@ import java.net.URL;
 import java.io.*;
 import java.security.SecureRandom;
 import java.util.*;
-import org.jdom2.*;
-import org.jdom2.input.SAXBuilder;
 
 public class Test {
     public static void main(String args[]) throws IOException {
