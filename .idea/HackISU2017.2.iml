@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Project/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Project" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6-contrib.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6-junit.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
