@@ -132,7 +132,7 @@ public class HelloWorldSpeechlet implements Speechlet
         currentWord = Pool.generateWord();
         wordToGuess = currentWord.getWord();
 
-        final String wordToSpell = "..Please spell, " + wordToGuess + " for me.";
+        final String wordToSpell = ".. Please spell, " + wordToGuess + " for me.";
         speechText += wordToSpell;
 
         // Create the plain text output.
@@ -199,7 +199,7 @@ public class HelloWorldSpeechlet implements Speechlet
         temp = temp.toLowerCase();
         final boolean userGotWordCorrect = wordToGuess.compareTo(temp) == 0;
 
-        String speechText = userGotWordCorrect ? "Correct. Good Job!" : "Incorrect, " + currentWord.getWord() + " is spelled, ";
+        String speechText = userGotWordCorrect ? "Correct. Good Job" : "Incorrect, " + currentWord.getWord() + " is spelled, ";
 
         // If the user got the word wrong, tell them how to spell it.
         if(!userGotWordCorrect)
