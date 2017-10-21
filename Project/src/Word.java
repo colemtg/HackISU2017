@@ -30,7 +30,7 @@ public class Word {
     final private String definitions;
 
     public void setFrequency(double frequency) {
-        this.frequency = 0;
+        this.frequency = frequency;
     }
 
     public void setDifficulty() {

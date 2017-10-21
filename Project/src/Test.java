@@ -4,26 +4,14 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.io.*;
+import java.security.SecureRandom;
 import java.util.*;
 import org.jdom2.*;
 import org.jdom2.input.SAXBuilder;
 
 public class Test {
     public static void main(String args[]) throws IOException {
-        /*compare("sit", "sit");
-        compare("just", "jəst");
-        compare("wait", "wāt");
-        compare("day", "dā");
-        compare("happy", "ha-pē");
-        compare("motion", "mō-shən");
-        compare("under", "ən-dər");
-        compare("small", "smȯl");
-        compare("late", "lāt");
-        compare("between", "bi-twēn");
-        compare("apple", "a-pəl");*/
-
-
-        try {
+        /*try {
             String word = "apple";
             URL url = new URL("http://www.dictionaryapi.com/api/v1/references/collegiate/xml/"
                     + word + "?key=782cdb78-2970-44f3-a699-e4c511831106");
@@ -42,6 +30,18 @@ public class Test {
             e.printStackTrace();
         } catch (IOException ioe) {
             ioe.printStackTrace();
+        }*/
+        ArrayList<Double> testList= new ArrayList<>(Arrays.asList(.5,1.0,1.5,1.25,1.75,2.0));
+        final SecureRandom generator = new SecureRandom();
+        double randomNum=generator.nextDouble()*8;
+        System.out.println(randomNum);
+        for (int i =0; i<testList.size();i++){
+            //Word currWord = wordsInPool.get(i);
+            randomNum-=testList.get(i);
+            System.out.println(randomNum);
+            if (randomNum<=0){
+                System.out.println("Index is:"+i);
+            }
         }
 
     }
