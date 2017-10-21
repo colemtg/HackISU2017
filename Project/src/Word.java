@@ -69,7 +69,7 @@ public class Word {
         {
             NotPool.addRuleToPool(rules.get(k),this);
         }
-        if(count==word.length())
+        if(count==word.length() && word.length()==pronunciation.length())
         {
             rules.add(new Rule(" ", " "));
             NotPool.addRuleToPool(rules.get(0),this);

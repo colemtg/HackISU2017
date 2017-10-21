@@ -24,14 +24,16 @@ public class Main {
         Pool pool = new Pool();
         //add first 100 and remove 100
         for (int i = 0; i < 100; i++) {
-            Pool.addWordToPool( notPool.getWordsInPool().get(0));
+            Pool.addWordToPool( NotPool.getWordsInPool().get(0));
         }
+        /*
         Scanner input =new Scanner(System.in);
         Word word;
         String in;
         System.out.print("Spell word: ");
-        for(int i=0; i<100; i++) {
+        for(int i=0; i<1000; i++) {
             System.out.println("current frequency: " + Pool.getCurrentFrequency());
+            System.out.println("number of words in the pool: " + Pool.getWordsInPool().size());
             for(int j =0;j<Pool.getWordsInPool().size(); j++ )
             {
                 System.out.println("Word: " +Pool.getWordsInPool().get(j).getWord()
@@ -44,6 +46,7 @@ public class Main {
             System.out.println(word.getWord().equals(in));
             Pool.update(word,in.equals(word.getWord()));
         }
+        */
 
     }
 }
