@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main() {
         //start by making 1000 words and adding them to the "not" pool
         NotPool notPool = new NotPool();
         try {
