@@ -52,16 +52,24 @@ public class HelloWorldSpeechlet implements Speechlet
 
     @Override
     public SpeechletResponse onIntent(final IntentRequest request, final Session session)
-            throws SpeechletException {
-        log.info("onIntent requestId={}, sessionId={}", request.getRequestId(),
-                session.getSessionId());
+            throws SpeechletException
+    {
+        log.info("onIntent requestId={}, sessionId={}", request.getRequestId(), session.getSessionId());
 
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
 
-        if ("LearnSpellingIntent".equals(intentName))
+        if ("GuessLetterIntent".equals(intentName))
         {
-            return getWordToSpell();
+            return getLetterInWord(intent.getSlot("Letter"));
+        }
+        else if ("DoneIntent".equals(intentName))
+        {
+            return userIsDoneGuessingWord();
+        }
+        else if ("LearnSpellingIntent".equals(intentName))
+        {
+            return startSpellingLesson();
         }
         else if ("HelloWorldIntent".equals(intentName)) // Practice
         {
@@ -90,7 +98,8 @@ public class HelloWorldSpeechlet implements Speechlet
      *
      * @return SpeechletResponse spoken and visual response for the given intent
      */
-    private SpeechletResponse getWelcomeResponse() {
+    private SpeechletResponse getWelcomeResponse()
+    {
         String speechText = "Welcome to the Alexa Skills Kit, you can say hello";
 
         // Create the Simple card content.
@@ -110,8 +119,27 @@ public class HelloWorldSpeechlet implements Speechlet
     }
 
 
-    private SpeechletResponse getWordToSpell() {
-        final String speechText = this.getWordForUserToGuess();
+    private SpeechletResponse startSpellingLesson()
+    {
+        final String speechText = "Okay, I am going to give you a list of words to spell. " +
+                "If you can spell it right, I'll give you a harder word. " +
+                "Otherwise, I'll give you something easier.";
+
+        SimpleCard card = new SimpleCard();
+        card.setTitle("NewLesson");
+        card.setContent(speechText);
+
+        PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
+        speech.setText(speechText);
+
+        SpeechletResponse response = SpeechletResponse.newTellResponse(speech, card);
+        return getWordToSpell();
+    }
+
+
+    private SpeechletResponse getWordToSpell()
+    {
+        final String speechText = "Please spell " + getWordForUserToGuess() + " for me.";
 
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
@@ -122,8 +150,27 @@ public class HelloWorldSpeechlet implements Speechlet
         PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
         speech.setText(speechText);
 
-        return SpeechletResponse.newTellResponse(speech, card);
+        Reprompt reprompt = new Reprompt();
+        reprompt.setOutputSpeech(speech);
+
+        return SpeechletResponse.newAskResponse(speech, reprompt, card);
     }
+
+    private String userGuessSoFar = "";
+    private String wordToGuess = "";
+
+    private SpeechletResponse getLetterInWord()
+    {
+
+    }
+
+
+    private SpeechletResponse userIsDoneGuessingWord()
+    {
+
+    }
+
+
 
 
     /**
@@ -133,7 +180,7 @@ public class HelloWorldSpeechlet implements Speechlet
      */
     private SpeechletResponse getHelloResponse()
     {
-        String speechText = "Hello hack I es you!";
+        String speechText = "Hello hack I s you!";
 
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
