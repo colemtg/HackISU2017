@@ -25,14 +25,13 @@ import com.amazon.speech.ui.PlainTextOutputSpeech;
 import com.amazon.speech.ui.Reprompt;
 import com.amazon.speech.ui.SimpleCard;
 
-
-
 /**
  * This sample shows how to create a simple speechlet for handling speechlet requests.
  */
 public class HelloWorldSpeechlet implements Speechlet
 {
     private static final Logger log = LoggerFactory.getLogger(HelloWorldSpeechlet.class);
+
     @Override
     public void onSessionStarted(final SessionStartedRequest request, final Session session)
             throws SpeechletException
