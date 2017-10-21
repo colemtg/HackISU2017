@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class Pool {
-    private ArrayList<Word> wordsInPool= new ArrayList<>();
+    private static ArrayList<Word> wordsInPool= new ArrayList<>();
     private static HashMap<Integer, ArrayList<Word> > rulesInPool = new HashMap<>();
-    private double currentFrequency;
-    public Word generateWord(){
+    private static double currentFrequency;
+    public static Word generateWord(){
         final SecureRandom generator = new SecureRandom();
         double randomNum = generator.nextDouble()*currentFrequency;
         for (int i =0; i<wordsInPool.size();i++){

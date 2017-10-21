@@ -27,6 +27,7 @@ public class Main {
         //initialize original pool
         ArrayList<Word> totalWords = notPool.getWordsInPool();
         Pool pool = new Pool();
+        //add first 100 and remove 100
         for (int i=0; i<100; i++){
             pool.addWordToPool(totalWords.get(0));
             notPool.removeWord(totalWords.get(0));
