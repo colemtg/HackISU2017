@@ -33,8 +33,11 @@ public class Word {
         this.frequency = 0;
     }
 
-    public void setDifficulty(double difficulty) {
-        this.difficulty = difficulty;
+    public void setDifficulty() {
+        double lengthDiff = 1.5*(word.length()/10);
+        double commonDiff = (2.5*Math.pow(1000,(double)commonality/1000)/1000);
+        double pronDiff = 0.6*compare(word,pronunciation);
+        this.difficulty = lengthDiff + commonDiff + pronDiff;
     }
     public void addRule(Rule rule){
         rules.add(rule);
@@ -56,9 +59,9 @@ public class Word {
         this.pronunciation = pronunciation;
         this.definitions = definitions;
         this.commonality = commonality;
-
+        setDifficulty();
     }
-    static void compare(String word, String pro)
+    static double compare(String word, String pro)
     {
         System.out.println("comparing " + word + " to " + pro);
         int i=0;
@@ -123,5 +126,6 @@ public class Word {
             }
         }
         System.out.println("amount same:" + count);
+        return 0;
     }
 }
