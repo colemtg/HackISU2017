@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b98e987-67a0-43df-a9ce-7d2decb4d0d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/words-pros-defs.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.class" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/NotPool.class" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/NotPool.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0-jar-with-dependencies.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0.jar" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/words-pros-defs.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/Project/" />
     <ignored path="$PROJECT_DIR$/LearnSpellingAlexaProject/" />
@@ -29,14 +18,11 @@
       <file leaf-file-name="HelloWorldSpeechlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+            <state relative-caret-position="-4307">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#1702#1703#0" expanded="true" />
-                <element signature="e#1746#1747#0" expanded="true" />
-                <element signature="docComment;method#getWelcomeResponse#0;class#HelloWorldSpeechlet#0" expanded="false" />
-                <element signature="method#getWelcomeResponse#0;class#HelloWorldSpeechlet#0" expanded="false" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,6 +68,7 @@
     <findStrings>
       <find>HelloWorldSpeechlet</find>
       <find>getWordToSpell</find>
+      <find>getWelcomeResponse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -316,12 +303,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508605711497</updated>
-      <workItem from="1508605715793" duration="20665000" />
+      <workItem from="1508605715793" duration="21511000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20665000" />
+    <option name="totallyTimeSpent" value="21511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1931" height="1036" extended-state="0" />
@@ -483,14 +470,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+        <state relative-caret-position="-4307">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#1702#1703#0" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-            <element signature="docComment;method#getWelcomeResponse#0;class#HelloWorldSpeechlet#0" expanded="false" />
-            <element signature="method#getWelcomeResponse#0;class#HelloWorldSpeechlet#0" expanded="false" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
           </folding>
         </state>
       </provider>

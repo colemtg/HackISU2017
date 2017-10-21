@@ -1,17 +1,7 @@
-/**
-    Copyright 2014-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-
-    Licensed under the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. A copy of the License is located at
-
-        http://aws.amazon.com/apache2.0/
-
-    or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
- */
 package com.amazon.asksdk.helloworld;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
 import com.amazon.speech.slu.Intent;
 import com.amazon.speech.speechlet.IntentRequest;
 import com.amazon.speech.speechlet.LaunchRequest;
@@ -26,9 +16,6 @@ import com.amazon.speech.ui.Reprompt;
 import com.amazon.speech.ui.SimpleCard;
 import sun.applet.Main;
 
-/**
- * This sample shows how to create a simple speechlet for handling speechlet requests.
- */
 public class HelloWorldSpeechlet implements Speechlet
 {
     // The user's guess
@@ -62,10 +49,10 @@ public class HelloWorldSpeechlet implements Speechlet
     {
         log.info("onLaunch requestId={}, sessionId={}", request.getRequestId(),
                 session.getSessionId());
-        WordDriver.initializeWords();
         return startSpellingLesson();
     }
 
+    // Called whenever the user states an intent
     @Override
     public SpeechletResponse onIntent(final IntentRequest request, final Session session)
             throws SpeechletException
@@ -111,41 +98,16 @@ public class HelloWorldSpeechlet implements Speechlet
 
     @Override
     public void onSessionEnded(final SessionEndedRequest request, final Session session)
-            throws SpeechletException {
+            throws SpeechletException
+    {
         log.info("onSessionEnded requestId={}, sessionId={}", request.getRequestId(),
                 session.getSessionId());
-        // any cleanup logic goes here
     }
 
-    /**
-     * Creates and returns a {@code SpeechletResponse} with a welcome message.
-     *
-     * @return SpeechletResponse spoken and visual response for the given intent
-     */
-    private SpeechletResponse getWelcomeResponse()
-    {
-        String speechText = "Welcome to the Alexa Skills Kit, you can say hello";
-
-        // Create the Simple card content.
-        SimpleCard card = new SimpleCard();
-        card.setTitle("HelloWorld");
-        card.setContent(speechText);
-
-        // Create the plain text output.
-        PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
-        speech.setText(speechText);
-
-        // Create reprompt
-        Reprompt reprompt = new Reprompt();
-        reprompt.setOutputSpeech(speech);
-
-        return SpeechletResponse.newAskResponse(speech, reprompt, card);
-    }
-
-    // The user has decided to quit
+    // The user has decided to quit. Give them a good bye message.
     private SpeechletResponse endLesson()
     {
-        final String speechText = "Thank you for learning";
+        final String speechText = "Thank you for spelling!";
         PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
         speech.setText(speechText);
         return SpeechletResponse.newTellResponse(speech);
