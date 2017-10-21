@@ -29,7 +29,9 @@ public class NotPool {
     static HashMap<Integer,ArrayList<Word>> getRulesInPool() {
         return rulesInPool;
     }
-    public void sortWords(){wordsInPool.sort(Comparator.comparing(Word::getDifficulty));}
+    public void sortWords(){
+        //wordsInPool.sort(Comparator.comparing(Word::getDifficulty));
+    }
     public static void removeWord(Word word){
         wordsInPool.remove(word);
         for (int i=0; i<word.getRules().size(); i++){

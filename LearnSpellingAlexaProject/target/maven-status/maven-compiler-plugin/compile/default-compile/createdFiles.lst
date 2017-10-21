@@ -1,2 +1,8 @@
-com\amazon\asksdk\helloworld\HelloWorldSpeechlet.class
+com\amazon\asksdk\helloworld\Word.class
 com\amazon\asksdk\helloworld\HelloWorldSpeechletRequestStreamHandler.class
+com\amazon\asksdk\helloworld\Test.class
+com\amazon\asksdk\helloworld\Rule.class
+com\amazon\asksdk\helloworld\Main.class
+com\amazon\asksdk\helloworld\Pool.class
+com\amazon\asksdk\helloworld\NotPool.class
+com\amazon\asksdk\helloworld\HelloWorldSpeechlet.class
