@@ -11,15 +11,15 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6-contrib.jar!/" />
-          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6-junit.jar!/" />
-          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/jdom-2.0.6/jdom-2.0.6.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/jdom-2.0.6/jdom-2.0.6-junit.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/jdom-2.0.6/jdom-2.0.6-contrib.jar!/" />
         </CLASSES>
         <JAVADOC>
-          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6-javadoc.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/jdom-2.0.6/jdom-2.0.6-javadoc.jar!/" />
         </JAVADOC>
         <SOURCES>
-          <root url="jar://$USER_HOME$/Desktop/jdom-2.0.6/jdom-2.0.6-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Downloads/jdom-2.0.6/jdom-2.0.6-sources.jar!/" />
         </SOURCES>
       </library>
     </orderEntry>
