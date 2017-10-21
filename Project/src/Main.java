@@ -16,6 +16,9 @@ public class Main {
             int commonality=1;
             while ((line=bufferedReader.readLine())!=null) {
                 String[] split = line.split(" ");
+                if (split[0].equals(split[1])){
+                    System.out.println(split[0]);
+                }
                 Word currWord = new Word(split[0],split[1],"",commonality );
                 notPool.addWordToPool(currWord);
                 commonality++;
