@@ -1,6 +1,7 @@
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args){
@@ -21,6 +22,11 @@ public class Main {
             e.printStackTrace();
         }
         notPool.sortWords();
+        ArrayList<Word> testList = new ArrayList<Word>();
+        testList = notPool.getWordsInPool();
+        for (int i=0;i<100; i++){
+            System.out.println(testList.get(i).getWord()+" "+testList.get(i).getDifficulty());
+        }
 
     }
 }
