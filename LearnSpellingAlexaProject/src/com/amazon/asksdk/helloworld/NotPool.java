@@ -1,8 +1,10 @@
 package com.amazon.asksdk.helloworld;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.TreeMap;
 
 public class NotPool {
     private static ArrayList<Word> wordsInPool= new ArrayList<>();
@@ -30,7 +32,14 @@ public class NotPool {
         return rulesInPool;
     }
     public void sortWords(){
-        //wordsInPool.sort(Comparator.comparing(Word::getDifficulty));
+        ArrayList<Word> returnList = new ArrayList<>();
+        TreeMap<Double,Word> sortMap = new TreeMap<>();
+        for(Word word : wordsInPool)
+        {
+            sortMap.put(word.getDifficulty(),word);
+        }
+        returnList.addAll(sortMap.values());
+        this.wordsInPool =returnList;
     }
     public static void removeWord(Word word){
         wordsInPool.remove(word);

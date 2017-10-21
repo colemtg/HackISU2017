@@ -2,40 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b98e987-67a0-43df-a9ce-7d2decb4d0d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/Main.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/words-pros-defs.txt" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.class" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/NotPool.class" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/NotPool.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0-jar-with-dependencies.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0.jar" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HackISU2017.2.iml" afterPath="$PROJECT_DIR$/.idea/HackISU2017.2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dictionaries/Owner.xml" afterPath="$PROJECT_DIR$/.idea/dictionaries/Owner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1-1000.txt" afterPath="$PROJECT_DIR$/1-1000.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/LICENSE" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/README.md" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/build.gradle" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/pom.xml" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/speechAssets/IntentSchema.json" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/speechAssets/IntentSchema.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/speechAssets/SampleUtterances.txt" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/speechAssets/SampleUtterances.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechletRequestStreamHandler.java" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechletRequestStreamHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/resources/log4j.properties" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/log4j.properties" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/Project.iml" afterPath="$PROJECT_DIR$/Project/Project.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/src/Main.java" afterPath="$PROJECT_DIR$/Project/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/src/NotPool.java" afterPath="$PROJECT_DIR$/Project/src/NotPool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/src/Pool.java" afterPath="$PROJECT_DIR$/Project/src/Pool.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/src/Rule.java" afterPath="$PROJECT_DIR$/Project/src/Rule.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/src/Test.java" afterPath="$PROJECT_DIR$/Project/src/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/src/Word.java" afterPath="$PROJECT_DIR$/Project/src/Word.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project/src/drive.java" afterPath="$PROJECT_DIR$/Project/src/drive.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dictAndDef.txt" afterPath="$PROJECT_DIR$/dictAndDef.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.txt" afterPath="$PROJECT_DIR$/test.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/words-and-pros.txt" afterPath="$PROJECT_DIR$/words-and-pros.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/words-pros-defs.txt" afterPath="$PROJECT_DIR$/words-pros-defs.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/Project/" />
     <ignored path="$PROJECT_DIR$/LearnSpellingAlexaProject/" />
@@ -48,11 +26,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorldSpeechlet.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HelloWorldSpeechlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3656">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="478">
+              <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#1702#1703#0" expanded="true" />
+                <element signature="e#1746#1747#0" expanded="true" />
+                <element signature="docComment;method#getWelcomeResponse#0;class#HelloWorldSpeechlet#0" expanded="false" />
+                <element signature="method#getWelcomeResponse#0;class#HelloWorldSpeechlet#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pool.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/Pool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloWorldSpeechletRequestStreamHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechletRequestStreamHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="37" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -60,20 +64,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotPool.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java">
+      <file leaf-file-name="WordDriver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/WordDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="469">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>HelloWorldSpeechlet</find>
+      <find>getWordToSpell</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +95,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/Main.java" />
         <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java" />
+        <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/build.gradle" />
+        <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/WordDriver.java" />
+        <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java" />
       </list>
     </option>
   </component>
@@ -120,7 +133,69 @@
       <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HackISU2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackISU2017" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackISU2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackISU2017" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnSpellingAlexaProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackISU2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackISU2017" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnSpellingAlexaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackISU2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackISU2017" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnSpellingAlexaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackISU2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackISU2017" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnSpellingAlexaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackISU2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackISU2017" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnSpellingAlexaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="asksdk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackISU2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackISU2017" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnSpellingAlexaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="amazon" type="462c0819:PsiDirectoryNode" />
+              <item name="asksdk" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackISU2017" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackISU2017" type="462c0819:PsiDirectoryNode" />
+              <item name="LearnSpellingAlexaProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -231,6 +306,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="4b98e987-67a0-43df-a9ce-7d2decb4d0d7" name="Default" comment="" />
@@ -238,12 +316,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508605711497</updated>
-      <workItem from="1508605715793" duration="383000" />
+      <workItem from="1508605715793" duration="20665000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383000" />
+    <option name="totallyTimeSpent" value="20665000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1931" height="1036" extended-state="0" />
@@ -261,7 +339,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13800539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19460917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -276,6 +354,34 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19460917" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -288,23 +394,103 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java">
+    <entry file="file://$PROJECT_DIR$/Project/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3656">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="48">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/jre/lib/rt.jar!/sun/applet/Main.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2256">
+          <caret line="94" column="19" lean-forward="false" selection-start-line="94" selection-start-column="19" selection-end-line="94" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="43" column="61" lean-forward="true" selection-start-line="43" selection-start-column="61" selection-end-line="43" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="e#770#771#0" expanded="false" />
+            <element signature="e#807#808#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/WordDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechletRequestStreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="37" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java">
+    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/Pool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        <state relative-caret-position="606">
+          <caret line="31" column="42" lean-forward="false" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/Word.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="88" column="18" lean-forward="false" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="78" column="9" lean-forward="true" selection-start-line="78" selection-start-column="9" selection-end-line="78" selection-end-column="9" />
           <folding>
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#1702#1703#0" expanded="true" />
+            <element signature="e#1746#1747#0" expanded="true" />
+            <element signature="docComment;method#getWelcomeResponse#0;class#HelloWorldSpeechlet#0" expanded="false" />
+            <element signature="method#getWelcomeResponse#0;class#HelloWorldSpeechlet#0" expanded="false" />
           </folding>
         </state>
       </provider>
