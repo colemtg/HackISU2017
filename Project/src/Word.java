@@ -68,6 +68,11 @@ public class Word {
         {
             NotPool.addRuleToPool(rules.get(k),this);
         }
+        if(count==word.length())
+        {
+            rules.add(new Rule(" ", " "));
+            NotPool.addRuleToPool(rules.get(0),this);
+        }
         return (double)(word.length()-count)/(double)word.length();
     }
     public String getWord() {

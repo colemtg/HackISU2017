@@ -15,21 +15,41 @@ public class Pool {
         {
             for(int i=0; i<word.getRules().size(); i++)
             {
-                for(int j=0; j<rulesInPool.get((word.getRules().get(i).
-                        getTo() +word.getRules().get(i).getFrom()).hashCode()).size(); j++)
+                for(int j=0; j<rulesInPool.get((word.getRules().get(i).getHashCode())).size(); j++)
                 {
                     double oldF = rulesInPool.get((word.getRules().get(i).
-                            getTo() +word.getRules().get(i).getFrom()).hashCode()).get(j).getFrequency();
+                            getHashCode())).get(j).getFrequency();
 
                     double tempF = updateFrequency(rulesInPool.get((word.getRules().get(i).
-                            getTo() +word.getRules().get(i).getFrom()).hashCode()).get(j),bool);
+                            getHashCode())).get(j),bool);
 
-                    rulesInPool.get((word.getRules().get(i).getTo() +word.getRules().get(i).getFrom()).hashCode())
-                            .get(j).setFrequency(tempF);
+                    rulesInPool.get((word.getRules().get(i).getHashCode())).get(j).setFrequency(tempF);
 
                     currentFrequency=currentFrequency-(oldF-tempF);
                 }
+
+
+                if(NotPool.getRulesInPool().containsKey(word.getRules().get(i).getHashCode())) //if notPool has rule
+                {
+                    if(NotPool.getRulesInPool().get(word.getRules().get(i).getHashCode()).size()!=0) //if word in that rule
+                    {
+                        addWordToPool(NotPool.getRulesInPool().get(word.getRules().get(i).getHashCode()).get(0));
+                    }
+                    else
+                        if(NotPool.getWordsInPool().size()!=0)
+                        {
+                            addWordToPool(NotPool.getWordsInPool().get(0));
+                        }
+                }
+                else
+                    if(NotPool.getWordsInPool().size()!=0)
+                    {
+                        currentFrequency = currentFrequency + NotPool.getWordsInPool().get(i).getFrequency();
+                        addWordToPool(NotPool.getWordsInPool().get(0));
+                    }
+
             }
+
             double oldF = word.getFrequency();
             double tempF = updateFrequency(word,bool);
             word.setFrequency(tempF);
@@ -41,16 +61,15 @@ public class Pool {
             for(int i=0; i<word.getRules().size(); i++)
             {
                 for(int j=0; j<rulesInPool.get((word.getRules().get(i).
-                        getTo() +word.getRules().get(i).getFrom()).hashCode()).size(); j++)
+                        getHashCode())).size(); j++)
                 {
                     double oldF = rulesInPool.get((word.getRules().get(i).
-                            getTo() +word.getRules().get(i).getFrom()).hashCode()).get(j).getFrequency();
+                            getHashCode())).get(j).getFrequency();
 
                     double tempF = updateFrequency(rulesInPool.get((word.getRules().get(i).
-                            getTo() +word.getRules().get(i).getFrom()).hashCode()).get(j),bool);
+                           getHashCode())).get(j),bool);
 
-                    rulesInPool.get((word.getRules().get(i).getTo() +word.getRules().get(i).getFrom()).hashCode())
-                            .get(j).setFrequency(tempF);
+                    rulesInPool.get((word.getRules().get(i).getHashCode())).get(j).setFrequency(tempF);
 
                     currentFrequency=currentFrequency+(tempF-oldF);
                 }
@@ -63,9 +82,9 @@ public class Pool {
     }
     private static double updateFrequency(Word word, Boolean bool)
     {
-        double newF=0;
+        double newF;
         int offset=0;
-        if(word.getRules().size()==0) offset=1;
+        if(word.getRules().size()==0) offset=1; //in case word some how has no rules
         if(bool)
         {
             newF = word.getFrequency() - word.getFrequency()/((double)((4*(word.getRules().size()+offset))));
@@ -90,18 +109,18 @@ public class Pool {
         return null;
     }
     public static void addRuleToPool(Rule rule,Word word){
-        if(rulesInPool.containsKey((rule.getTo()+rule.getFrom()).hashCode()))
+        if(rulesInPool.containsKey((rule.getHashCode())))
         {
-            rulesInPool.get((rule.getTo()+rule.getFrom()).hashCode()).add(word);
+            rulesInPool.get((rule.getHashCode())).add(word);
         }
         else
         {
-            rulesInPool.put((rule.getTo()+rule.getFrom()).hashCode(),new ArrayList<Word>());
-            rulesInPool.get((rule.getTo()+rule.getFrom()).hashCode()).add(word);
+            rulesInPool.put((rule.getHashCode()),new ArrayList<Word>());
+            rulesInPool.get((rule.getHashCode())).add(word);
         }
     }
     //Words added to Pool must be removed from not Pool
-    public void addWordToPool(Word word){
+    public static void addWordToPool(Word word){
         NotPool.removeWord(word);
         wordsInPool.add(word);
         currentFrequency = currentFrequency+word.getFrequency();
@@ -110,7 +129,7 @@ public class Pool {
             Pool.addRuleToPool(word.getRules().get(i),word);
         }
     }
-    public ArrayList<Word> getWordsInPool() {
+    public static  ArrayList<Word> getWordsInPool() {
         return wordsInPool;
     }
     public static double getCurrentFrequency() {

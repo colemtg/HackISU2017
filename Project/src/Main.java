@@ -23,8 +23,8 @@ public class Main {
         notPool.sortWords();
         Pool pool = new Pool();
         //add first 100 and remove 100
-        for (int i = 0; i < 1000; i++) {
-            pool.addWordToPool( notPool.getWordsInPool().get(0));
+        for (int i = 0; i < 10; i++) {
+            Pool.addWordToPool( notPool.getWordsInPool().get(0));
         }
         Scanner input =new Scanner(System.in);
         Word word;
@@ -32,6 +32,11 @@ public class Main {
         System.out.print("Spell word: ");
         for(int i=0; i<10; i++) {
             System.out.println("current frequency: " + Pool.getCurrentFrequency());
+            for(int j =0;j<Pool.getWordsInPool().size(); j++ )
+            {
+                System.out.println("Word: " +Pool.getWordsInPool().get(j).getWord()
+                +" Frequency: " +Pool.getWordsInPool().get(j).getFrequency());
+            }
             word = Pool.generateWord();
             System.out.println("difficulty: " +word.getDifficulty());
             System.out.println(word.getWord());
