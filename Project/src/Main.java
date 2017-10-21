@@ -1,36 +1,44 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
 
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //start by making 1000 words and adding them to the "not" pool
         NotPool notPool = new NotPool();
         try {
-            FileReader file = new FileReader("words-and-pros.txt");
+            FileReader file = new FileReader("words-pros-defs.txt");
             BufferedReader bufferedReader = new BufferedReader(file);
             String line;
-            int commonality=1;
-            while ((line=bufferedReader.readLine())!=null) {
-                String[] split = line.split(" ");
-                Word currWord = new Word(split[0],split[1],"",commonality );
+            int commonality = 1;
+            while ((line = bufferedReader.readLine()) != null) {
+                String[] split = line.split("%");
+                Word currWord = new Word(split[0], split[1], split[2], commonality);
                 notPool.addWordToPool(currWord);
                 commonality++;
             }
         } catch (java.io.IOException e) {
             e.printStackTrace();
         }
+
         notPool.sortWords();
-        //initialize original pool
-        ArrayList<Word> totalWords = notPool.getWordsInPool();
         Pool pool = new Pool();
         //add first 100 and remove 100
-        for (int i=0; i<100; i++){
-            pool.addWordToPool(totalWords.get(0));
-            notPool.removeWord(totalWords.get(0));
+        for (int i = 0; i < 1000; i++) {
+            pool.addWordToPool( notPool.getWordsInPool().get(0));
         }
+        Scanner input =new Scanner(System.in);
+        Word word;
+        String in;
+        System.out.print("Spell word: ");
+        for(int i=0; i<10; i++) {
+            System.out.println("current frequency: " + Pool.getCurrentFrequency());
+            word = Pool.generateWord();
+            System.out.println("difficulty: " +word.getDifficulty());
+            System.out.println(word.getWord());
+            in=input.nextLine();
+            System.out.println(word.getWord().equals(in));
+            Pool.update(word,in.equals(word.getWord()));
+        }
+
     }
 }

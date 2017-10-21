@@ -175,6 +175,7 @@ public class HelloWorldSpeechlet implements Speechlet
 
     private String getWordForUserToGuess()
     {
+        //return Pool.generateWord().getWord();
         return "quotient";
     }
 }

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class NotPool {
-    private ArrayList<Word> wordsInPool= new ArrayList<>();
+    private static ArrayList<Word> wordsInPool= new ArrayList<>();
     private static HashMap<Integer, ArrayList<Word> > rulesInPool = new HashMap<>();
 
     public static void addRuleToPool(Rule rule,Word word){
@@ -30,7 +30,7 @@ public class NotPool {
         return rulesInPool;
     }
     public void sortWords(){wordsInPool.sort(Comparator.comparing(Word::getDifficulty));}
-    public void removeWord(Word word){
+    public static void removeWord(Word word){
         wordsInPool.remove(word);
         for (int i=0; i<word.getRules().size(); i++){
             if (rulesInPool.containsKey((word.getRules().get(i).getFrom()+word.getRules().get(i).getTo()).hashCode())){

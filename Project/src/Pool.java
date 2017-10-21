@@ -7,6 +7,76 @@ public class Pool {
     private static ArrayList<Word> wordsInPool= new ArrayList<>();
     private static HashMap<Integer, ArrayList<Word> > rulesInPool = new HashMap<>();
     private static double currentFrequency;
+
+
+    public static void update(Word word, Boolean bool)
+    {
+        if(bool)
+        {
+            for(int i=0; i<word.getRules().size(); i++)
+            {
+                for(int j=0; j<rulesInPool.get((word.getRules().get(i).
+                        getTo() +word.getRules().get(i).getFrom()).hashCode()).size(); j++)
+                {
+                    double oldF = rulesInPool.get((word.getRules().get(i).
+                            getTo() +word.getRules().get(i).getFrom()).hashCode()).get(j).getFrequency();
+
+                    double tempF = updateFrequency(rulesInPool.get((word.getRules().get(i).
+                            getTo() +word.getRules().get(i).getFrom()).hashCode()).get(j),bool);
+
+                    rulesInPool.get((word.getRules().get(i).getTo() +word.getRules().get(i).getFrom()).hashCode())
+                            .get(j).setFrequency(tempF);
+
+                    currentFrequency=currentFrequency-(oldF-tempF);
+                }
+            }
+            double oldF = word.getFrequency();
+            double tempF = updateFrequency(word,bool);
+            word.setFrequency(tempF);
+            currentFrequency=currentFrequency-(oldF-tempF);
+
+        }
+        else
+        {
+            for(int i=0; i<word.getRules().size(); i++)
+            {
+                for(int j=0; j<rulesInPool.get((word.getRules().get(i).
+                        getTo() +word.getRules().get(i).getFrom()).hashCode()).size(); j++)
+                {
+                    double oldF = rulesInPool.get((word.getRules().get(i).
+                            getTo() +word.getRules().get(i).getFrom()).hashCode()).get(j).getFrequency();
+
+                    double tempF = updateFrequency(rulesInPool.get((word.getRules().get(i).
+                            getTo() +word.getRules().get(i).getFrom()).hashCode()).get(j),bool);
+
+                    rulesInPool.get((word.getRules().get(i).getTo() +word.getRules().get(i).getFrom()).hashCode())
+                            .get(j).setFrequency(tempF);
+
+                    currentFrequency=currentFrequency+(tempF-oldF);
+                }
+            }
+            double oldF = word.getFrequency();
+            double tempF = updateFrequency(word,bool);
+            word.setFrequency(tempF);
+            currentFrequency=currentFrequency+(tempF-oldF);
+        }
+    }
+    private static double updateFrequency(Word word, Boolean bool)
+    {
+        double newF=0;
+        int offset=0;
+        if(word.getRules().size()==0) offset=1;
+        if(bool)
+        {
+            newF = word.getFrequency() - word.getFrequency()/((double)((4*(word.getRules().size()+offset))));
+        }
+        else
+        {
+            newF=word.getFrequency() + word.getFrequency()/(double)(10*(word.getRules().size()+offset));
+        }
+        return newF;
+    }
+
     public static Word generateWord(){
         final SecureRandom generator = new SecureRandom();
         double randomNum = generator.nextDouble()*currentFrequency;
@@ -30,7 +100,9 @@ public class Pool {
             rulesInPool.get((rule.getTo()+rule.getFrom()).hashCode()).add(word);
         }
     }
+    //Words added to Pool must be removed from not Pool
     public void addWordToPool(Word word){
+        NotPool.removeWord(word);
         wordsInPool.add(word);
         currentFrequency = currentFrequency+word.getFrequency();
         for(int i=0; i<word.getRules().size(); i++)
@@ -41,7 +113,7 @@ public class Pool {
     public ArrayList<Word> getWordsInPool() {
         return wordsInPool;
     }
-    public double getCurrentFrequency() {
+    public static double getCurrentFrequency() {
         return currentFrequency;
     }
     public void setCurrentFrequency(double currentFrequency) {
