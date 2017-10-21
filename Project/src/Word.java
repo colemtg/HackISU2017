@@ -32,8 +32,9 @@ public class Word {
                 count++;
                 if(found)
                 {
-                    System.out.println(word.substring(startI,i));
-                    System.out.println(pronunciation.substring(startJ,j));
+                    addRule(new Rule(word.substring(startI,i),pronunciation.substring(startJ,j)));
+                    //System.out.println(word.substring(startI,i));
+                    //System.out.println(pronunciation.substring(startJ,j));
                 }
                 i++;
                 j++;
@@ -47,8 +48,9 @@ public class Word {
                 j++;
                 if(i==word.length() || j==pronunciation.length())
                 {
-                    System.out.println(word.substring(startI,word.length()));
-                    System.out.println(pronunciation.substring(startJ,pronunciation.length()));
+                    addRule(new Rule(word.substring(startI,word.length()),pronunciation.substring(startJ,pronunciation.length())));
+                    //System.out.println(word.substring(startI,word.length()));
+                    //System.out.println(pronunciation.substring(startJ,pronunciation.length()));
                 }
             }
             else //if(found)
@@ -63,12 +65,17 @@ public class Word {
                 }
                 if(i==word.length() || j==pronunciation.length())
                 {
-                    System.out.println(word.substring(startI,word.length()));
-                    System.out.println(pronunciation.substring(startJ,pronunciation.length()));
+                    addRule(new Rule(word.substring(startI,word.length()),pronunciation.substring(startJ,pronunciation.length())));
+                    //System.out.println(word.substring(startI,word.length()));
+                    //System.out.println(pronunciation.substring(startJ,pronunciation.length()));
                 }
             }
         }
-        return (word.length()-count)/word.length();
+        for(int k=0;k<rules.size(); k++)
+        {
+            NotPool.addRuleToPool(rules.get(k),this);
+        }
+        return (double)(word.length()-count)/(double)word.length();
         //System.out.println("amount same:" + count);
     }
     public String getWord() {

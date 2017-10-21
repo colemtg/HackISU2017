@@ -5,17 +5,17 @@ import java.util.HashSet;
 
 public class NotPool {
     private ArrayList<Word> wordsInPool= new ArrayList<>();
-    private static HashMap<Rule, ArrayList<Word> > rulesInPool = new HashMap<Rule, ArrayList<Word> >();
+    private static HashMap<Rule, ArrayList<Word> > rulesInPool = new HashMap<>();
 
-    public void addRuleToPool(Rule rule){
+    public static void addRuleToPool(Rule rule,Word word){
         if(rulesInPool.containsKey(rule))
         {
-            for(int i=0; i<rule.getWordsInRule().size(); i++)
-            rulesInPool.get(rule).add(rule.getWordsInRule().get(i));
+            rulesInPool.get(rule).add(word);
         }
         else
         {
-            rulesInPool.put(rule,rule.getWordsInRule());
+            rulesInPool.put(rule,new ArrayList<Word>());
+            rulesInPool.get(rule).add(word);
         }
     }
     public ArrayList<Word> getWordsInPool() {
