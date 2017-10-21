@@ -5,7 +5,11 @@ import java.util.HashSet;
 public class Pool {
     private ArrayList<Word> wordsInPool= new ArrayList<>();
     private HashSet<Rule> rulesInPool = new HashSet<Rule>();
+    private double currentFrequency;
 
+    public void addWordToPool(Word word){
+        wordsInPool.add(word);
+    }
     public ArrayList<Word> getWordsInPool() {
         return wordsInPool;
     }
@@ -22,7 +26,7 @@ public class Pool {
         this.currentFrequency = currentFrequency;
     }
 
-    private double currentFrequency;
+
 
     public void addRuleToPool(Rule rule){
         rulesInPool.add(rule);
