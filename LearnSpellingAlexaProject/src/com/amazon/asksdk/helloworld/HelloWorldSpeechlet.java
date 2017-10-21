@@ -62,7 +62,7 @@ public class HelloWorldSpeechlet implements Speechlet
 
         if ("GuessLetterIntent".equals(intentName))
         {
-            return getLetterInWord(intent.getSlot("Letter").getValue());
+            return getLetterInWord(intent.getSlot("Letter"));
         }
         else if ("DoneIntent".equals(intentName))
         {
@@ -140,58 +140,35 @@ public class HelloWorldSpeechlet implements Speechlet
 
     private SpeechletResponse getWordToSpell()
     {
-        wordToGuess = getWordForUserToGuess();
-        final String speechText = "Please spell " + wordToGuess + " for me.";
-
-        // Create the plain text output.
-        PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
-        speech.setText(speechText);
-
-        Reprompt reprompt = new Reprompt();
-        reprompt.setOutputSpeech(speech);
-
-        return SpeechletResponse.newAskResponse(speech, reprompt);
-    }
-
-    private String userGuessSoFar = "";
-    private String wordToGuess = "";
-
-    private SpeechletResponse getLetterInWord(String letter)
-    {
-        userGuessSoFar += letter;
-        String speechText = "Next?";
-
-        // Create the plain text output.
-        PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
-        speech.setText(speechText);
-
-        // Create reprompt
-        Reprompt reprompt = new Reprompt();
-        reprompt.setOutputSpeech(speech);
-
-        return SpeechletResponse.newAskResponse(speech, reprompt);
-    }
-
-
-    private SpeechletResponse userIsDoneGuessingWord()
-    {
-        boolean userGotWordCorrect = userGuessSoFar.equals(wordToGuess);
-        String speechText = userGotWordCorrect ? "Correct" : "Incorrect";
+        final String speechText = "Please spell " + getWordForUserToGuess() + " for me.";
 
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
-        card.setTitle(userGotWordCorrect ? "Correct" : "Incorrect");
+        card.setTitle("Spelling");
         card.setContent(speechText);
 
         // Create the plain text output.
         PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
         speech.setText(speechText);
 
-        // Create reprompt
         Reprompt reprompt = new Reprompt();
         reprompt.setOutputSpeech(speech);
 
         return SpeechletResponse.newAskResponse(speech, reprompt, card);
+    }
+
+    private String userGuessSoFar = "";
+    private String wordToGuess = "";
+
+    private SpeechletResponse getLetterInWord()
+    {
+
+    }
+
+
+    private SpeechletResponse userIsDoneGuessingWord()
+    {
+
     }
 
 
@@ -208,7 +185,7 @@ public class HelloWorldSpeechlet implements Speechlet
 
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
-        card.setTitle("Hello Hack ISU");
+        card.setTitle("HelloWorld");
         card.setContent(speechText);
 
         // Create the plain text output.
