@@ -19,7 +19,9 @@ public class Pool {
         }
         return null;
     }
-
+    public void addWordToPool(Word word){
+        wordsInPool.add(word);
+    }
     public ArrayList<Word> getWordsInPool() {
         return wordsInPool;
     }

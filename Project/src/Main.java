@@ -5,7 +5,7 @@ import java.io.FileReader;
 public class Main {
     public static void main(String[] args){
         //start by making 1000 words and adding them to the "not" pool
-        Pool notPool = new Pool();
+        NotPool notPool = new NotPool();
         try {
             FileReader file = new FileReader("words-and-pros.txt");
             BufferedReader bufferedReader = new BufferedReader(file);
@@ -20,6 +20,7 @@ public class Main {
         } catch (java.io.IOException e) {
             e.printStackTrace();
         }
+        notPool.sortWords();
 
     }
 }

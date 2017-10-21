@@ -14,7 +14,6 @@ public class Word {
     }
     private double compare()
     {
-        System.out.println("comparing " + word + " to " + pronunciation);
         int i=0;
         int j=0;
         int startI=0;

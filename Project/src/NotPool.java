@@ -1,5 +1,6 @@
 import java.security.SecureRandom;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -18,10 +19,14 @@ public class NotPool {
             rulesInPool.get(rule).add(word);
         }
     }
+    public void addWordToPool(Word word){
+        wordsInPool.add(word);
+    }
     public ArrayList<Word> getWordsInPool() {
         return wordsInPool;
     }
     static HashMap<Rule,ArrayList<Word>> getRulesInPool() {
         return rulesInPool;
     }
+    public void sortWords(){wordsInPool.sort(Comparator.comparing(Word::getDifficulty));}
 }
