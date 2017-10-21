@@ -27,8 +27,7 @@ public class Pool {
 
                     currentFrequency=currentFrequency-(oldF-tempF);
                 }
-
-
+                //limit this in some way
                 if(NotPool.getRulesInPool().containsKey(word.getRules().get(i).getHashCode())) //if notPool has rule
                 {
                     if(NotPool.getRulesInPool().get(word.getRules().get(i).getHashCode()).size()!=0) //if word in that rule

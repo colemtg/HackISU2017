@@ -1,7 +1,8 @@
 import java.util.ArrayList;
 
 public class Word {
-    private double frequency=1;
+    private final double startingFrequency = 1;
+    private double frequency=startingFrequency;
     private  double difficulty;
     private ArrayList<Rule> rules = new ArrayList<>();
     final private int commonality;
@@ -121,5 +122,9 @@ public class Word {
     }
     public int getCommonality() {
         return commonality;
+    }
+
+    public double getStartingFrequency() {
+        return startingFrequency;
     }
 }
