@@ -9,6 +9,76 @@ import java.util.*;
 
 public class Test {
     public static void main(String args[]) throws IOException {
+
+
+
+
+
+    }
+    static double compare(String word, String pro)
+    {
+        System.out.println("comparing " + word + " to " + pro);
+        int i=0;
+        int j=0;
+        int startI=0;
+        int startJ=0;
+        int count=0;
+        boolean found=false;
+        while(i<word.length() && j<pro.length())
+        {
+            if(pro.charAt(j) == '-') // or just remove in parse
+            {
+                j++;
+            }
+            if(word.charAt(i) == pro.charAt(j))
+            {
+                count++;
+                if(found)
+                {
+                    Rule rule = new Rule(word.substring(startI,i),pro.substring(startJ,j));
+                    System.out.println(word.substring(startI,i));
+                    System.out.println(pro.substring(startJ,j));
+                }
+                i++;
+                j++;
+                found=false;
+            }
+            else if(!found)
+            {
+                found=true;
+                startI=i;
+                startJ=j;
+
+                j++;
+
+                if(i==word.length() || j==pro.length())
+                {
+                    System.out.println(word.substring(startI,word.length()));
+                    System.out.println(pro.substring(startJ,pro.length()));
+                }
+            }
+            else //if(found)
+            {
+                if(pro.charAt(j)>'z' || pro.charAt(j) < 'a')
+                {
+                    j++;
+                }
+                else
+                {
+                    i++;
+                }
+                if(i==word.length() || j==pro.length())
+                {
+                    System.out.println(word.substring(startI,word.length()));
+                    System.out.println(pro.substring(startJ,pro.length()));
+                }
+            }
+        }
+        System.out.println("amount same:" + count);
+        return (word.length()-count)/word.length();
+
+    }
+}
         /*try {
             String word = "apple";
             URL url = new URL("http://www.dictionaryapi.com/api/v1/references/collegiate/xml/"
@@ -29,6 +99,7 @@ public class Test {
         } catch (IOException ioe) {
             ioe.printStackTrace();
         }*/
+        /*
         ArrayList<Double> testList= new ArrayList<>(Arrays.asList(.5,1.0,1.5,1.25,1.75,2.0));
         final SecureRandom generator = new SecureRandom();
         double randomNum=generator.nextDouble()*8;
@@ -43,5 +114,6 @@ public class Test {
         }
 
     }
+    */
 
-}
+

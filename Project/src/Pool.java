@@ -1,36 +1,12 @@
 import java.security.SecureRandom;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 
 public class Pool {
     private ArrayList<Word> wordsInPool= new ArrayList<>();
-    private HashSet<Rule> rulesInPool = new HashSet<Rule>();
+    private static HashMap<Rule, ArrayList<Word> > rulesInPool = new HashMap<Rule, ArrayList<Word> >();
     private double currentFrequency;
-
-    public void addWordToPool(Word word){
-        wordsInPool.add(word);
-    }
-    public ArrayList<Word> getWordsInPool() {
-        return wordsInPool;
-    }
-
-    public HashSet<Rule> getRulesInPool() {
-        return rulesInPool;
-    }
-
-    public double getCurrentFrequency() {
-        return currentFrequency;
-    }
-
-    public void setCurrentFrequency(double currentFrequency) {
-        this.currentFrequency = currentFrequency;
-    }
-
-
-
-    public void addRuleToPool(Rule rule){
-        rulesInPool.add(rule);
-    }
     public Word generateWord(){
         final SecureRandom generator = new SecureRandom();
         double randomNum = generator.nextDouble()*currentFrequency;
@@ -42,5 +18,15 @@ public class Pool {
             }
         }
         return null;
+    }
+
+    public ArrayList<Word> getWordsInPool() {
+        return wordsInPool;
+    }
+    public double getCurrentFrequency() {
+        return currentFrequency;
+    }
+    public void setCurrentFrequency(double currentFrequency) {
+        this.currentFrequency = currentFrequency;
     }
 }
