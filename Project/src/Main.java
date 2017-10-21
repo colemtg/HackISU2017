@@ -2,6 +2,8 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Map;
 
 public class Main {
     public static void main(String[] args){
@@ -27,6 +29,5 @@ public class Main {
         for (int i=0;i<100; i++){
             System.out.println(testList.get(i).getWord()+" "+testList.get(i).getDifficulty());
         }
-
     }
 }

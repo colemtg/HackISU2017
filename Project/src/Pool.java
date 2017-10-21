@@ -5,7 +5,7 @@ import java.util.HashSet;
 
 public class Pool {
     private ArrayList<Word> wordsInPool= new ArrayList<>();
-    private static HashMap<Rule, ArrayList<Word> > rulesInPool = new HashMap<Rule, ArrayList<Word> >();
+    private static HashMap<Integer, ArrayList<Word> > rulesInPool = new HashMap<>();
     private double currentFrequency;
     public Word generateWord(){
         final SecureRandom generator = new SecureRandom();
@@ -19,8 +19,24 @@ public class Pool {
         }
         return null;
     }
+    public static void addRuleToPool(Rule rule,Word word){
+        if(rulesInPool.containsKey((rule.getTo()+rule.getFrom()).hashCode()))
+        {
+            rulesInPool.get((rule.getTo()+rule.getFrom()).hashCode()).add(word);
+        }
+        else
+        {
+            rulesInPool.put((rule.getTo()+rule.getFrom()).hashCode(),new ArrayList<Word>());
+            rulesInPool.get((rule.getTo()+rule.getFrom()).hashCode()).add(word);
+        }
+    }
     public void addWordToPool(Word word){
         wordsInPool.add(word);
+        currentFrequency = currentFrequency+word.getFrequency();
+        for(int i=0; i<word.getRules().size(); i++)
+        {
+            Pool.addRuleToPool(word.getRules().get(i),word);
+        }
     }
     public ArrayList<Word> getWordsInPool() {
         return wordsInPool;

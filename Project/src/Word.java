@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class Word {
-    private double frequency;
+    private double frequency=1;
     private  double difficulty;
     private ArrayList<Rule> rules = new ArrayList<>();
     final private int commonality;
@@ -111,7 +111,7 @@ public class Word {
 
     private void setDifficulty() {
         double lengthDiff = 1.5*((double)word.length()/(double)10);
-        double commonDiff = (2.5*Math.pow(1000,(double)commonality/(double)1000)/(double)1000);
+        double commonDiff = 2.5*Math.pow(1000,(double)commonality/(double)1000)/(double)1000;
         double pronDiff = (double)6*compare();
         this.difficulty = lengthDiff + commonDiff + pronDiff;
     }
