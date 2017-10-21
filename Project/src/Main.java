@@ -1,9 +1,8 @@
 import java.io.*;
 import java.util.*;
 
-
 public class Main {
-    public static void main(String[] args) {
+    public static void main() {
         //start by making 1000 words and adding them to the "not" pool
         NotPool notPool = new NotPool();
         try {
@@ -27,7 +26,7 @@ public class Main {
         for (int i = 0; i < 100; i++) {
             Pool.addWordToPool( NotPool.getWordsInPool().get(0));
         }
-
+        /*
         Scanner input =new Scanner(System.in);
         Word word;
         String in;
@@ -47,7 +46,7 @@ public class Main {
             System.out.println(word.getWord().equals(in));
             Pool.update(word,in.equals(word.getWord()));
         }
-
+        */
 
     }
 }
