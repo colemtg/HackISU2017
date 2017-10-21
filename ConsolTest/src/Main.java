@@ -1,13 +1,15 @@
 import java.io.*;
+import java.net.URL;
 import java.util.*;
 
 public class Main {
-    public static void main() {
+    public static void main(String[] args) {
         //start by making 1000 words and adding them to the "not" pool
         NotPool notPool = new NotPool();
         try {
-            FileReader file = new FileReader("words-pros-defs.txt");
-            BufferedReader bufferedReader = new BufferedReader(file);
+            URL file = new URL("https://raw.githubusercontent.com/colemtg/HackISU2017/master/words-pros-defs.txt");
+            //FileReader file = new FileReader("https://raw.githubusercontent.com/colemtg/HackISU2017/master/words-pros-defs.txt");
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(file.openStream()));
             String line;
             int commonality = 1;
             while ((line = bufferedReader.readLine()) != null) {
@@ -23,12 +25,27 @@ public class Main {
         notPool.sortWords();
         Pool pool = new Pool();
         //add first 100 and remove 100
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 200; i++) {
             Pool.addWordToPool( NotPool.getWordsInPool().get(0));
         }
-        /*
+
         Scanner input =new Scanner(System.in);
         Word word;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
         String in;
         System.out.print("Spell word: ");
         for(int i=0; i<1000; i++) {
@@ -46,7 +63,7 @@ public class Main {
             System.out.println(word.getWord().equals(in));
             Pool.update(word,in.equals(word.getWord()));
         }
-        */
+
 
     }
 }
