@@ -41,7 +41,7 @@ when%wən%at what time?
 up%əp%to, toward, or in a more elevated position.
 use%yüs%cause to act or serve for a purpose; bring into service.
 your%yər%a form of the possessive case of you used as an attributive adjective
-how%hau̇%by what means, in what way
+how%hau%by what means, in what way
 said%sed%past and past part. of say.
 an%ən%the form of a before an initial vowel sound ( an arch; an honor) and sometimes, especially in British English, before an initial unstressed syllable beginning with a silent or weakly pronounced h
 each%ēch%every one of two or more considered individually or one by one.
@@ -56,7 +56,7 @@ way%wā%manner, mode, or fashion.
 about%əbau̇t%of; concerning; in regard to
 many%menē%great in number; numerous (many people).
 then%then%at that time
-them%them%�objective case of they
+them%them%objective case of they
 write%rīt%to trace or form (characters, letters, words, etc.) on the surface of some material, as with a pen, pencil, or other instrument or means; inscribe.
 would%wu̇d%a simple past tense and past participle of will.
 like%līk%of the same form, appearance, kind, character, amount, etc.
@@ -81,183 +81,183 @@ number%nəmbər%a numeral or group of numerals.
 sound%sau̇nd%the sensation produced by stimulation of the organs of hearing by vibrations transmitted through the air or other medium
 no%nō%a negative used to express dissent, denial, or refusal, as in response to a question or request
 most%mōst%in the greatest quantity, amount, measure, degree, or number.
-people%pēpəl%�persons indefinitely or collectively; persons in general
+people%pēpəl%persons indefinitely or collectively; persons in general
 my%mī%a form of the possessive case of I used as an attributive adjective
 over%ōvər%above in place or position.
 know%nō%to perceive or understand as fact or truth; to apprehend clearly and with certainty
 water%wȯtər%a transparent, odorless, tasteless liquid, a compound of hydrogen and oxygen, H 2 O, freezing at 32°F or 0°C and boiling at 212°F or 100°C, that in a more or less impure state constitutes rain, oceans, lakes, rivers, etc.: it contains 11.188 percent hydrogen and 88.812 percent oxygen, by weight
 than%thən%used, as after comparative adjectives and adverbs, to introduce the second member of an unequal comparison
-call%kȯlto cry out in a loud voice; shout.
+call%kȯl%to cry out in a loud voice; shout.
 first%fərst%being before all others with respect to time, order, rank, importance, etc.
 who%hü%what person or persons?.
 may%mā%used to express possibility.
 down%dau̇n%from higher to lower; in descending direction or order; toward, into, or in a lower position.
 side%sīd%one of the surfaces forming the outside of or bounding a thing, or one of the lines bounding a geometric figure.
 been%bin%past participle of be
-now%nau̇%at the present time or moment
+now%nau%at the present time or moment
 find%fīnd%to come upon by chance; meet with
 any%enē%one, a, an, or some; one or more without specification or identification
 new%nü%of recent origin, production, purchase, etc.; having but lately come or been brought into being.
 work%wərk%exertion or effort directed to produce or accomplish something; labor; toil
-part%pärt%-timer  n. person employed in part-time work.
-take%tāk%-up  n. acceptance of a thing offered.
-get%get%-up-and-go  n. colloq. energy, enthusiasm.
-place%plās%-setting  n. set of cutlery etc. for one person at a table.
-made%mād%to measure  adj. tailor-made.
-live%liv%wire  n. spirited person.
-where%wər%�interrog. adv. 1 in or to what place or position? 2 in what respect? (where does it concern us?). �rel. adv. (prec. by place etc.) in or to which (places where they meet). �conj. 1 in or to the or any place, direction, or respect in which (go where you like; tick where applicable). 2 and there (reached crewe, where the car broke down). �pron. what place? (where do you come from?). �n. place; scene of something (see *when n.). [old english]
-after%aftər%-effect  n. delayed effect following an accident, trauma, etc.
-back%bak%-to-nature  attrib. adj. seeking a simpler way of life.
-little%litᵊl%woman  n. (prec. by the) colloq. often derog. one's wife.
-only%ōnlē%too  adv. extremely.
-round%rau̇nd%-up  n. 1 systematic rounding up. 2 summary or r�sum�.
-man%man%to man  adv. candidly.
-year%yir%n. 1 time occupied by the earth in one revolution round the sun, approx. 3651/4 days. 2 = *calendar year. 3 period of twelve months, starting at any point (four years ago; tax year). 4 (in pl.) age, time of life (young for his years). 5 (usu. in pl.) colloq. very long time. 6 group of students entering college etc. in the same academic year. [old english]
-came%kām%past of *come.
-show%shō%trial  n. judicial trial designed to frighten or impress the public.
-every%evrē%one  n. each one.
-good%gu̇d%works  n.pl. charitable acts.
-me%mē%2  n. (also mi) mus. third note of a major scale. [latin mira, word arbitrarily taken]
-give%giv%-away  n. colloq. 1 unintentional revelation. 2 thing given as a gift or at a low price.
-our%är%lord  n. christ.
-under%əndər%-secretary  n. (pl. -ies) subordinate official, esp. a junior minister or senior civil servant.
-name%nām%-plate  n. plate or panel bearing the name of an occupant of a room etc.
-very%verē%light  n. flare projected from a pistol for signalling or illuminating part of a battlefield etc. [very, name of its inventor]
-through%thrü%(also thro', us thru) �prep. 1 a from end to end or side to side of. b going in one side or end and out the other of. 2 between or among (swam through the waves). 3 from beginning to end of (read through the letter; went through many difficulties). 4 because of; by the agency, means, or fault of (lost it through carelessness). 5 us up to and including (monday through friday). �adv. 1 through a thing; from side to side, end to end, or beginning to end. 2 so as to be connected by telephone (will put you through). �attrib. adj. 1 (of a journey, route, etc.) done without a change of line or vehicle etc. or with one ticket. 2 (of traffic) going through a place to its destination. 3 (of a road) open at both ends.  be through colloq. 1 (often foll. by with) have finished. 2 (often foll. by with) cease to have dealings. 3 have no further prospects. through and through thoroughly, completely. [old english]
-just%jəst%�adj. 1 morally right or fair. 2 (of treatment etc.) deserved (just reward). 3 well-grounded; justified (just anger). 4 right in amount etc.; proper. �adv. 1 exactly (just what i need). 2 a little time ago; very recently (has just seen them). 3 colloq. simply, merely (just good friends; just doesn't make sense). 4 barely; no more than (just managed it). 5 colloq. positively; indeed (just splendid; won't i just tell him!). 6 quite (not just yet).  just about colloq. almost exactly; almost completely. just in case as a precaution. just now 1 at this moment. 2 a little time ago. just the same = all the same. just so 1 exactly arranged (everything just so). 2 it is exactly as you say.  justly adv. justness n. [latin justus from jus right]
+part%pärt%a portion or division of a whole that is separate or distinct; piece, fragment, fraction, or section; constituent
+take%tāk%to get into one's hold or possession by voluntary action
+get%get%to receive or come to have possession, use, or enjoyment of
+place%plās%a particular portion of space, whether of definite or indefinite extent
+made%mād%simple past tense and past participle of make.
+live%liv%to have life, as an organism; be alive; be capable of vital functions.
+where%wər%in or at what place?
+after%aftər%behind in place or position; following behind
+back%bak%the rear part of the human body, extending from the neck to the lower end of the spine.
+little%litᵊl%small in size; not big; not large; tiny
+only%ōnlē%without others or anything further; alone; solely; exclusively.
+round%rau̇nd%having a flat, circular surface, as a disk
+man%man%an adult male person, as distinguished from a boy or a woman
+year%yir%a period of 365 or 366 days, in the Gregorian calendar, divided into 12 calendar months, now reckoned as beginning Jan. 1 and ending Dec. 31
+came%kām%simple past tense of come.
+show%shō%to cause or allow to be seen; exhibit; display
+every%evrē%being one of a group or series taken collectively; each
+good%gu̇d%morally excellent; virtuous; righteous; pious
+me%mē%the objective case of I, used as a direct or indirect object
+give%giv%-to present voluntarily and without expecting compensation; bestow
+our%är%a form of the possessive case of we used as an attributive adjective
+under%əndər%beneath and covered by
+name%nām%a word or a combination of words by which a person, place, or thing, a body or class, or any object of thought is designated, called, or known
+very%verē%in a high degree; extremely; exceedingly
+through%thrü%in at one end, side, or surface and out at the other
+just%jəst%guided by truth, reason, justice, and fairness
 form%fȯrm%comb. form (usu. as -iform) forming adjectives meaning: 1 having the form of (cruciform). 2 having so many forms (multiform).
-sentence%sentᵊnts%�n. 1 statement, question, exclamation, or command containing or implying a subject and predicate (e.g. i went; come here!). 2 a decision of a lawcourt, esp. the punishment allotted to a convicted criminal.
-great%grāt%war  n. world war of 1914�18.
-think%thiŋk%-tank  n. colloq. body of experts providing advice and ideas on national or commercial problems.
-say%say%-so  n. colloq. 1 power of decision. 2 mere assertion (his say-so is not enough).
-help%help%�v. 1 provide with the means towards what is needed or sought (helped me with my work; helped me (to) pay my debts; helped him on with his coat). 2 (often absol.) be of use or service to (does that help?). 3 contribute to alleviating (a pain or difficulty). 4 prevent or remedy (it can't be helped). 5 (usu. with neg.) a refrain from (can't help it; could not help laughing). b refl. refrain from acting (couldn't help himself). 6 (often foll. by to) serve (a person with food). �n. 1 helping or being helped (need your help; came to our help). 2 person or thing that helps. 3 colloq. domestic assistant or assistance. 4 remedy or escape (there is no help for it).  help oneself (often foll. by to) 1 serve oneself (with food etc.). 2 take without permission. help a person out give a person help, esp. in difficulty.  helper n. [old english]
-low%lō%tide  n. (also low water) time or level of the tide at its ebb.
-line%līn%-up  n. 1 line of people for inspection. 2 arrangement of persons in a team, band, etc.
-differ%difər%v. 1 (often foll. by from) be unlike or distinguishable. 2 (often foll. by with) disagree. [latin differo, dilat- bring apart]
-turn%tərn%-up  n. 1 turned up end of a trouser leg. 2 colloq. unexpected happening.
-cause%kȯz%c�l�bre  n. (pl. causes c�l�bres pronunc. same) lawsuit that attracts much interest. [french]
-much%məch%�adj. 1 existing or occurring in a great quantity (much trouble; too much noise). 2 (prec. by as, how, that, etc.) with relative sense (i don't know how much money you want). �n. 1 a great quantity (much of that is true). 2 (prec. by as, how, that, etc.) with relative sense (we do not need that much). 3 (usu. in neg.) noteworthy or outstanding example (not much to look at). �adv. 1 in a great degree (much to my surprise; is much the same; i much regret it; much annoyed; much better; much the best). 2 for a large part of one's time; often (he is not here much).  as much so (i thought as much). a bit much colloq. excessive, immoderate. much as even though (cannot come, much as i would like to). much of a muchness very nearly the same. not much of a colloq. a rather poor. [from *mickle]
-mean%mēn%sea level  n. level halfway between high and low water.
-before%biˈfȯr%null
-move%müv%�v. (-ving) 1 (cause to) change position or posture. 2 put or keep in motion; rouse, stir. 3 a take a turn in a board-game. b change the position of (a piece) in a board-game. 4 (often foll. by about, away, off, etc.) go or proceed. 5 take action, esp. promptly (moved to reduce crime). 6 make progress (project is moving fast). 7 (also absol.) change (one's home or place of work). 8 (foll. by in) be socially active in (a specified group etc.) (moves in the best circles). 9 affect (a person) with (usu. tender) emotion. 10 (foll. by to) provoke (a person to laughter etc.) (was moved to tears). 11 (foll. by to, or to + infin.) prompt or incline (a person to a feeling or action). 12 (cause to) change one's attitude (nothing can move me on this issue). 13 a cause (the bowels) to be evacuated. b (of the bowels) be evacuated. 14 (often foll. by that) propose in a meeting, etc. 15 (foll. by for) make a formal request or application. 16 sell; be sold. �n. 1 act or process of moving. 2 change of house, premises, etc. 3 step taken to secure an object. 4 a changing of the position of a piece in a board-game. b player's turn to do this.  get a move on colloq. hurry up. make a move take action. move along (or on) advance, progress, esp. to avoid crowding etc. move away go to live in another area. move heaven and earth (foll. by to + infin.) make extraordinary efforts. move in 1 take up residence in a new home. 2 get into a position of readiness or proximity (for an offensive action etc.). move in with start to share accommodation with (an existing resident). move out leave one's home. move over (or up) adjust one's position to make room for another. on the move moving. [latin moveo]
-right%rīt%wing  �n. 1 more conservative section of a political party or system. 2 right side of a football etc. team on the field. �adj. (right-wing) conservative or reactionary.  right-winger n.
-boy%bȯi%scout  n. = *scout n. 4.
-old%ōld%year  n. year just ended or ending.
-too%tü%adv. 1 to a greater extent than is desirable or permissible (too large). 2 colloq. very (not too sure). 3 in addition (i'm coming too). 4 moreover (food was bad, and expensive too).  none too rather less than (feeling none too good). too bad see *bad. too much intolerable. too much for 1 more than a match for. 2 beyond what is endurable by. too right see *right. [stressed form of *to]
-same%sām%�adj. 1 (often prec. by the) identical; not different (on the same bus). 2 unvarying (same old story). 3 (usu. prec. by this, these, that, those) just mentioned (this same man later died). �pron. (prec. by the) 1 the same person or thing. 2 law or archaic the person or thing just mentioned. �adv. (usu. prec. by the) similarly; in the same way (feel the same).  all (or just) the same 1 nevertheless. 2 emphatically the same. at the same time 1 simultaneously. 2 notwithstanding. be all (or just) the same to make no difference to. same here colloq. the same applies to me.  sameness n. [old norse]
-tell%tel%-tale  n. 1 person who reveals secrets about another. 2 (attrib.) that reveals or betrays (tell-tale smile). 3 automatic monitoring or registering device.
-does%dəz%see *do1.
-set%set%-up  n. 1 arrangement or organization. 2 manner, structure, or position of this. 3 instance of setting a person up (see set up 10).
-three%thrē%-way  adj. involving three directions or participants.
-want%wȯnt%�v. 1 a (often foll. by to + infin.) desire; wish for possession of; need (wants a drink; wants it done immediately). b require to be attended to; need (garden wants weeding). c (foll. by to + infin.) colloq. ought; should (you want to be careful). 2 (usu. foll. by for) lack; be deficient. 3 be without or fall short by. 4 (as wanted adj.) (of a suspected criminal etc.) sought by the police. �n. 1 (often foll. by of) lack, absence, or deficiency (could not go for want of time). 2 poverty; need. [old norse]
-air%er%vice-marshal  n. raf officer of high rank, just below air marshal.
-well%wel%-worn  adj. 1 much worn by use. 2 (of a phrase etc.) trite.
-also%ˈȯlsō%-ran  n. 1 loser in a race. 2 undistinguished person.
-play%plā%school  n. nursery school or kindergarten.
-small%smȯl%-time  adj. colloq. unimportant, petty.
-end%end%-product  n. final product of manufacture etc.
-put%pu̇t%-up job  n. colloq. fraudulent scheme.
-home%hōm%truth  n. basic but unwelcome information about oneself.
-read%rēd%�v. (past and past part. read) 1 (also absol.) reproduce mentally or (often foll. by aloud, out, off, etc.) vocally the written or printed words of (a book, author, etc.). 2 convert or be able to convert into the intended words or meaning (written or other symbols or the things expressed in this way) (can't read music). 3 understand by observing; interpret (read me like a book; read his silence as consent; read my mind; reads tea-leaves). 4 find (a thing) stated in print etc. (read that you were leaving). 5 (often foll. by into) assume as intended or deducible (read too much into it). 6 bring into a specified state by reading (read myself to sleep). 7 a (of a recording instrument) show (a specified figure etc.). b interpret (a recording instrument) (read the meter). 8 convey meaning when read; have a certain wording (it reads persuasively; reads from left to right). 9 sound or affect a hearer or reader when read (the book reads like a parody). 10 study by reading (esp. a subject at university). 11 (as read adj.) versed in a subject (esp. literature) by reading (well-read person). 12 (of a computer) copy or transfer (data). 13 hear and understand (over a radio) (are you reading me?). 14 replace (a word etc.) with the correct one(s) (for �this� read �these�). �n. 1 spell of reading. 2 colloq. book etc. as regards readability (is a good read).  read between the lines look for or find hidden meaning. read up (often followed by on) make a special study of (a subject). take as read treat (a thing) as if it has been agreed. [old english]
-hand%hand%-to-hand  adj. (of fighting) at close quarters.
-port%pȯrt%of call  n. place where a ship or a person stops on a journey.
-large%lärj%-scale  adj. made or occurring on a large scale.
-spell%spel%3  n. 1 short or fairly short period (a cold spell). 2 period of some activity or work. [old english, = substitute]
-add%ad%v. 1 join (one thing to another) as an increase or supplement. 2 put together (numbers) to find their total. 3 say further.  add in include. add up 1 find the total of. 2 (foll. by to) amount to. 3 colloq. make sense. [latin addo]
-even%ēvən%money  n. betting odds offering the gambler the chance of winning the amount staked.
-land%land%-mine  n. explosive mine laid in or on the ground.
-here%hir%and there  adv. in various places.
-must%məst%2  n. grape juice before fermentation is complete. [old english from latin]
-big%big%wheel  n. ferris wheel.
-high%hī%wire  n. high tightrope.
-such%səch%-and-such  �attrib. adj. of a particular kind but not needing to be specified. �n. such a person or thing.
-follow%fälō%-up  n. subsequent or continued action.
-act%akt%�n. 1 something done; a deed. 2 process of doing (caught in the act). 3 item of entertainment. 4 pretence (all an act). 5 main division of a play etc. 6 a decree of a legislative body. b document attesting a legal transaction. �v. 1 behave (acted wisely). 2 perform an action or function; take action (act as referee; brakes failed to act; he acted quickly). 3 (also foll. by on) have an effect (alcohol acts on the brain). 4 a perform a part in a play, film, etc. b pretend. 5 a play the part of (acted othello; acts the fool). b perform (a play etc.). c portray (an incident) by actions.  act for be the (esp. legal) representative of. act of god natural event, e.g. an earthquake. act up colloq. misbehave; give trouble (car is acting up). get one's act together slang become properly organized; prepare. put on an act colloq. make a pretence. [latin ago act- do]
-why%hwī%�adv. 1 for what reason or purpose (why did you do it?; i do not know why you came). 2 (prec. by reason etc.) for which (the reasons why i did it). �int. expressing: 1 surprised discovery or recognition (why, it's you!). 2 impatience (why, of course i do!). 3 reflection (why, yes, i think so). 4 objection (why, what is wrong with it?).  whys and wherefores reasons; explanation. [old english: related to *what]
-ask%ask%v. 1 call for an answer to or about (ask her about it; ask him his name). 2 seek to obtain from someone (ask a favour of). 3 (usu. foll. by out, in, or over, or to (a function etc.)) invite (must ask them over; asked her to dinner). 4 (foll. by for) seek to obtain, meet, or be directed to (ask for help; asking for you; ask for the bar).  ask after inquire about (esp. a person). ask for it slang invite trouble. [old english]
-men%men%pl. of *man.
-change%chānj%-over  n. change from one system to another.
-went%gō%past of *go1.
-light%līt%-year  n. distance light travels in one year, nearly 6 million million miles.
-kind%kīnd%-hearted  adj. of a kind disposition.  kind-heartedly adv. kind-heartedness n.
-off%ȯf%white  adj. & n. (as adj. often hyphenated) white with a grey or yellowish tinge.
-need%nēd%�v. 1 stand in want of; require. 2 (foll. by to + infin.; 3rd sing. present neg. or interrog. need without to) be under the necessity or obligation (needs to be done well; he need not come; need you ask?). �n. 1 requirement (my needs are few). 2 circumstances requiring some course of action (no need to worry; if need be).
-house%hau̇s%-warming  n. party celebrating a move to a new home.
-picture%pikchər%window  n. large window of one pane of glass.
-try%trī%-out  n. experimental test.
-us%əs%pron. 1 objective case of *we (they saw us). 2 colloq. = *we (it's us again). 3 colloq. = *me1 (give us a kiss). [old english]
-again%əgen%adv. 1 another time; once more. 2 as previously (home again; well again). 3 in addition (as much again). 4 further, besides (again, what about you?). 5 on the other hand (i might, and again i might not).  again and again repeatedly. [old english]
-animal%anəməl%�n. 1 living organism, esp. other than man, which feeds and usu. has sense-organs and a nervous system and can move quickly. 2 brutish person. �adj. 1 of or like an animal. 2 bestial; carnal. [latin animalis having breath]
-point%pȯint%-to-point  n. steeplechase for hunting horses.
-mother%məthər%tongue  n. native language.
-world%wərld%-weary  adj. bored with human affairs.  world-weariness n.
-near%nir%thing  n. narrow escape.
-build%bild%-up  n. 1 favourable advance publicity. 2 gradual approach to a climax. 3 accumulation or increase.
-self%self%-worth  n. = *self-esteem.
-earth%ərth%-shattering  adj. colloq. traumatic, devastating.  earth-shatteringly adv.
-father%fäthər%'s day  n. day on which cards and presents are given to fathers.
-head%hed%wind  n. wind blowing from directly in front.
-stand%stand%-up  attrib. adj. 1 (of a meal) eaten standing. 2 (of a fight) violent and thorough. 3 (of a collar) not turned down. 4 (of a comedian) telling jokes to an audience.
-own%ōn%goal  n. 1 goal scored by mistake against the scorer's own side. 2 act etc. that has the unintended effect of harming one's own interests.
-page%pāj%-boy  n. 1 = *page2 n. 2. 2 woman's hairstyle with the hair bobbed and rolled under.
-should%shəd%v.aux. (3rd sing. should) past of *shall, used esp.: 1 in reported speech (i said i should be home soon). 2 a to express obligation or likelihood (i should tell you; you should have read it; they should have arrived by now). b to express a tentative suggestion (i should like to add). 3 a expressing the conditional mood in the 1st person (i should have been killed if i had gone). b forming a conditional clause (if you should see him).
-country%kəntrē%-wide  adj. & adv. extending throughout a nation.
-found%fau̇nd%3  v. 1 a melt and mould (metal). b fuse (materials for glass). 2 make by founding.  founder n. [latin fundo fus- pour]
-answer%ansər%�n. 1 something said or done in reaction to a question, statement, or circumstance. 2 solution to a problem. �v. 1 make an answer or response (to) (answer the door). 2 suit (a purpose or need). 3 (foll. by to, for) be responsible (you will answer to me for your conduct). 4 (foll. by to) correspond, esp. to a description.  answer back answer insolently. [old english, = swear against (a charge)]
-school%skül%year  n. period from september to july.
-grow%grō%v. (past grew; past part. grown) 1 increase in size, height, quantity, degree, etc. 2 develop or exist as a living plant or natural product. 3 a produce (plants etc.) by cultivation. b allow (a beard etc.) to develop. 4 become gradually (grow rich). 5 (foll. by on) become gradually more favoured by. 6 (in passive; foll. by over etc.) be covered with a growth.  grow out of 1 become too large to wear. 2 become too mature to retain (a habit etc.). 3 develop from. grow up 1 advance to maturity. 2 (of a custom) arise. [old english]
-study%stədē%�n. (pl. -ies) 1 acquisition of knowledge, esp. from books. 2 (in pl.) pursuit of academic knowledge. 3 private room used for reading, writing, etc. 4 piece of work, esp. a drawing, done for practice or as an experiment. 5 portrayal in literature etc. of behaviour or character etc. 6 musical composition designed to develop a player's skill. 7 thing worth observing (his face was a study). 8 thing that is or deserves to be investigated. �v. (-ies, -ied) 1 make a study of; investigate (a subject) (study law). 2 (often foll. by for) apply oneself to study. 3 scrutinize closely (a visible object). 4 learn (one's role etc.). 5 take pains to achieve (a result) or pay regard to (a subject or principle etc.). 6 (as studied adj.) deliberate, affected (studied politeness). [latin studium]
-still%stil%-room  n. 1 room for distilling. 2 housekeeper's storeroom or pantry.
-learn%lərn%v. (past and past part. learned or learnt) 1 gain knowledge of or skill in. 2 commit to memory. 3 (foll. by of) be told about. 4 (foll. by that, how, etc.) become aware of. 5 receive instruction. 6 archaic or dial. teach. [old english]
-plant%plant%�n. 1 a organism usu. containing chlorophyll enabling it to live wholly on inorganic substances, and lacking the power of voluntary movement. b small organism of this kind, as distinguished from a shrub or tree. 2 a machinery, fixtures, etc., used in industry. b factory. 3 colloq. something deliberately placed so as to incriminate another. �v. 1 place (seeds, plants, etc.) in soil for growing. 2 (often foll. by in, on, etc.) put or fix in position. 3 (often refl.) station (a person etc.), esp. as a spy. 4 cause (an idea etc.) to be established, esp. in another person's mind. 5 deliver (a blow, kiss, etc.) with a deliberate aim. 6 colloq. place (something incriminating) for later discovery.   plant out transfer from a pot or frame to the open ground; set out (seedlings) at intervals.  plantlike adj. [latin planta]
-cover%kəvər%-up  n. concealment of facts.
-food%füd%value  n. nourishing power of a food.
-sun%sən%-up  n. esp. us sunrise.
-four%fȯr%-wheel drive  n. drive acting on all four wheels of a vehicle.
-between%bitwēn%null
-state%stāt%school  n. school largely managed and funded by the public authorities.
-keep%kēp%-fit  n. regular physical exercises.
-eye%ī%-tooth  n. canine tooth in the upper jaw just under the eye.
-never%nevər%-never  n. (often prec. by the) colloq. hire purchase.
-last%last%word  n. (prec. by the) 1 final or definitive statement. 2 (often foll. by in) latest fashion.
-let%let%-up  n. colloq. 1 reduction in intensity. 2 relaxation of effort.
-thought%thȯt%-reader  n. person supposedly able to perceive another's thoughts.
-city%sitē%-state  n. esp. hist. city that with its surrounding territory forms an independent state.
-tree%trē%surgeon  n. person who treats decayed trees in order to preserve them.
-cross%krȯs%-stitch  n. cross-shaped stitch.
-farm%färm%-hand  n. worker on a farm.
-hard%härd%-working  adj. diligent.
-start%stärt%�v. 1 begin. 2 set in motion or action (started a fire). 3 set oneself in motion or action. 4 begin a journey etc. 5 (often foll. by up) (cause to) begin operating. 6 a cause or enable (a person) to make a beginning (started me in business). b (foll. by pres. part.) cause (a person) to begin (started me coughing). 7 (often foll. by up) establish. 8 give a signal to (competitors) to start in a race. 9 (often foll. by up, from, etc.) jump in surprise, pain, etc. 10 spring out, up, etc. 11  conceive (a baby). 12  rouse (game etc.). 13 a (of timbers etc.) spring out; give way. b cause (timbers etc.) to do this. �n. 1 beginning. 2 place from which a race etc. begins. 3 advantage given at the beginning of a race etc. 4 advantageous initial position in life, business, etc. 5 sudden movement of surprise, pain, etc.  for a start colloq. as a beginning. start off begin; begin to move. start out begin a journey. start up arise; occur. [old english]
-might%mīt%-have-been  n. colloq. 1 past possibility that no longer applies. 2 person of unfulfilled promise.
-story%stȯrē%n. (pl. -ies) 1 account of imaginary or past events; tale, anecdote. 2 history of a person or institution etc. 3 (in full story-line) narrative or plot of a novel, play, etc. 4 facts or experiences worthy of narration. 5 colloq. fib. [anglo-french estorie from latin: related to *history]
-saw%sȯ%3  n. proverb; maxim. [old english: related to *say]
-far%fär%-sighted  adj. 1 having foresight, prudent. 2 esp. us = *long-sighted.
-sea%sē%wall  n. wall built to stop flooding or erosion by the sea.
-draw%drȯ%�v. (past drew; past part. drawn) 1 pull or cause to move towards or after one. 2 pull (a thing) up, over, or across. 3 pull (curtains etc.) open or shut. 4 take (a person) aside. 5 attract; bring; take in (drew a deep breath; felt drawn to her; drew my attention; drew a crowd). 6 (foll. by at, on) inhale from (a cigarette, pipe, etc.). 7 (also absol.) take out; remove (a tooth, gun, cork, card, etc.). 8 obtain or take from a source (draw a salary; draw inspiration; drew �100 out). 9 a (also absol.) make (a line or mark). b produce (a picture) thus. c represent (something) thus. 10 (also absol.) finish (a contest or game) with equal scores. 11 proceed (drew near the bridge; draw to a close; drew level). 12 infer (a conclusion).
-left%left%wing  �n. 1 more socialist section of a political party or system. 2 left side of a football etc. team on the field. �adj. (left-wing) socialist, radical.  left-winger n.
-late%lāt%�adj. 1 after the due or usual time; occurring or done after the proper time. 2 a far on in the day or night or in a specified period. b far on in development. 3 flowering or ripening towards the end of the season. 4 no longer alive; no longer having the specified status, former (my late husband; the late prime minister). 5 of recent date. �adv. 1 after the due or usual time. 2 far on in time. 3 at or till a late hour. 4 at a late stage of development. 5 formerly but not now (late of the scillies).  late in the day colloq. at a late stage in the proceedings.  lateness n. [old english]
-run%rən%-up  n. (often foll. by to) preparatory period.
-don't%dōnt%null
-while%wīl%�n. period of time (a long while ago; waited a while; all this while). �conj. 1 during the time that; for as long as; at the same time as (while i was away, the house was burgled; fell asleep while reading). 2 in spite of the fact that; whereas (while i want to believe it, i cannot). �v. (-ling) (foll. by away) pass (time etc.) in a leisurely or interesting way. �rel. adv. (prec. by time etc.) during which (the summer while i was abroad).  between whiles in the intervals. for a while for some time. in a while soon. the while in the meantime. worth while (or worth one's while) worth the time or effort spent. [old english]
-press%pres%-up  n. exercise in which the prone body is raised from the ground by placing the hands on the floor and straightening the arms.
-close%klōz%-up  n. photograph etc. taken at close range.
-night%nīt%-watchman  n. 1 person employed to keep watch at night. 2 cricket inferior batsman sent in near the close of a day's play.
-real%rēl%time  n. 1 actual time during which a process occurs. 2 (attrib.) (real-time) computing (of a system) in which the response time is the actual time during which an event occurs.
-life%līf%-support machine  n. respirator.
-few%fyü%and far between  predic. adj. scarce.
-north%nȯrth%-western  adj. on the north-west side.
-open%ōpən%verdict  n. verdict affirming that a crime has been committed but not specifying the criminal or (in case of violent death) the cause.
-seem%sēm%v. (often foll. by to + infin.) appear or feel (seems ridiculous).  i etc. can't seem to i etc. appear unable to (can't seem to manage it). it seems (or would seem) (often foll. by that) it appears to be the case. [old norse]
-together%təgethər%�adv. 1 in company or conjunction (walking together; were at school together). 2 simultaneously (both shouted together). 3 one with another (talking together). 4 into conjunction; so as to unite (tied them together; put two and two together). 5 into company or companionship. 6 uninterruptedly (he could talk for three hours together). �adj. colloq. well-organized; self-assured; emotionally stable. together with as well as. [old english: related to *to, *gather]
-next%nekst%world  n. (prec. by the) life after death.
-white%hwīt%whale  n. northern cetacean, white when adult.
-children%childrən%null
-begin%bigin%null
-got%gät%past and past part. of *get.
-walk%wȯk%-over  n. easy victory.
-example%igzampəl%n. 1 thing characteristic of its kind or illustrating a general rule. 2 person, thing, or piece of conduct, in terms of its fitness to be imitated. 3 circumstance or treatment seen as a warning to others. 4 problem or exercise designed to illustrate a rule.  for example by way of illustration. [latin exemplum: related to *exempt]
-ease%ēz%�n. 1 facility, effortlessness. 2 a freedom from pain or trouble. b freedom from constraint. �v. (-sing) 1 relieve from pain or anxiety. 2 (often foll. by off, up) a become less burdensome or severe. b begin to take it easy. c slow down; moderate one's behaviour etc. 3 a relax; slacken; make a less tight fit. b move or be moved carefully into place (eased it into position).  at ease 1 free from anxiety or constraint. 2 mil. in a relaxed attitude, with the feet apart. [latin: related to *adjacent]
-paper%pāpər%tiger  n. apparently threatening, but ineffectual, person or thing.
+sentence%sentᵊnts%Grammar. a grammatical unit of one or more words that expresses an independent statement, question, request, command, exclamation, etc., and that typically has a subject as well as a predicate, as in John is here. or Is John here? In print or writing, a sentence typically begins with a capital letter and ends with appropriate punctuation; in speech it displays recognizable, communicative intonation patterns and is often marked by preceding and following pauses
+great%grāt%unusually or comparatively large in size or dimensions.
+think%thiŋk%to have a conscious mind, to some extent of reasoning, remembering experiences, making rational decisions, etc
+say%say%to utter or pronounce; speak
+help%help%to give or provide what is necessary to accomplish a task or satisfy a need; contribute strength or means to; render assistance to; cooperate effectively with; aid; assist
+low%lō%situated, placed, or occurring not far above the ground, floor, or base
+line%līn%-a mark or stroke long in proportion to its breadth, made with a pen, pencil, tool, etc., on a surface
+differ%difər%to be unlike, dissimilar, or distinct in nature or qualities (often followed by from
+turn%tərn%to cause to move around on an axis or about a center; rotate
+cause%kȯz%a person or thing that acts, happens, or exists in such a way that some specific thing happens as a result; the producer of an effect
+much%məch%great in quantity, measure, or degree
+mean%mēn%to have in mind as one's purpose or intention; intend
+before%biˈfȯr%previous to; earlier or sooner than
+move%müv%to pass from one place or position to another
+right%rīt%in accordance with what is good, proper, or just
+boy%bȯi%a male child, from birth to full growth, especially one less than 18 years of age.
+old%ōld%far advanced in the years of one's or its life
+too%tü%in addition; also; furthermore; moreover
+same%sām%identical with what is about to be or has just been mentioned
+tell%tel%to give an account or narrative of; narrate; relate
+does%dəz%a plural of doe
+set%set%to put (something or someone) in a particular place
+three%thrē%a cardinal number, 2 plus 1
+want%wȯnt%to feel a need or a desire for; wish for
+air%er%a mixture of nitrogen, oxygen, and minute amounts of other gases that surrounds the earth and forms its atmosphere
+well%wel%in a good or satisfactory manner
+also%ˈȯlsō%-in addition; too; besides; as well
+play%plā%a dramatic composition or piece; drama
+small%smȯl%of limited size; of comparatively restricted dimensions; not big; little
+end%end%the last part or extremity, lengthwise, of anything that is longer than it is wide or broad
+put%pu̇t%to move or place (anything) so as to get it into or out of a specific location or position.
+home%hōm%a house, apartment, or other shelter that is the usual residence of a person, family, or household.
+read%rēd%to look at carefully so as to understand the meaning of (something written, printed, etc.
+hand%hand%the terminal, prehensile part of the upper limb in humans and other primates, consisting of the wrist, metacarpal area, fingers, and thumb.
+port%pȯrt%a city, town, or other place where ships load or unload
+large%lärj%of more than average size, quantity, degree, etc.; exceeding that which is common to a kind or class; big; great.
+spell%spel%to name, write, or otherwise give the letters, in order, of (a word, syllable, etc
+add%ad%to unite or join so as to increase the number, quantity, size, or importance
+even%ēvən%level; flat; without surface irregularities; smooth
+land%land%any part of the earth's surface not covered by a body of water; the part of the earth's surface occupied by continents and islands
+here%hir%in this place; in this spot or locality
+must%məst%to be obliged or bound to by an imperative requirement
+big%big%large, as in size, height, width, or amount
+high%hī%having a great or considerable extent or reach upward or vertically; lofty; tall
+such%səch%of the kind, character, degree, extent, etc., of that or those indicated or implied
+follow%fälō%to come after in sequence, order of time, etc..
+act%akt%anything done, being done, or to be done; deed; performance
+why%hwī%for what? for what reason, cause, or purpose?
+ask%ask%to put a question to; inquire of
+men%men%plural of man
+change%chānj%to make the form, nature, content, future course, etc., of (something) different from what it is or from what it would be if left alone
+went%went%simple past tense of go
+light%līt%something that makes things visible or affords illumination
+kind%kīnd%of a good or benevolent nature or disposition, as a person
+off%ȯf%so as to be no longer supported or attached
+need%nēd%a requirement, necessary duty, or obligation
+house%hau̇s%a building in which people live; residence for human beings
+picture%pikchər%wa visual representation of a person, object, or scene, as a painting, drawing, photograph, etc.
+try%trī%to attempt to do or accomplish.
+us%əs%the objective case of we, used as a direct or indirect object
+again%əgen%once more; another time; anew; in addition
+animal%anəməl%any member of the kingdom Animalia, comprising multicellular organisms that have a well-defined shape and usually limited growth, can move voluntarily, actively acquire food and digest it internally, and have sensory and nervous systems that allow them to respond rapidly to stimuli: some classification schemes also include protozoa and certain other single-celled eukaryotes that have motility and animallike nutritional modes
+point%pȯint%a sharp or tapering end, as of a dagger
+mother%məthər%a female parent
+world%wərld%the earth or globe, considered as a planet
+near%nir%close; to a point or place not far away
+build%bild%to construct (especially something complex) by assembling and joining parts or materials
+self%self%a person or thing referred to with respect to complete individuality
+earth%ərth%the planet third in order from the sun, having an equatorial diameter of 7926 miles (12,755 km) and a polar diameter of 7900 miles (12,714 km), a mean distance from the sun of 92.9 million miles (149.6 million km), and a period of revolution of 365.26 days, and having one satellite
+father%fäthər%a male parent
+head%hed%the upper part of the body in humans, joined to the trunk by the neck, containing the brain, eyes, ears, nose, and mouth.
+stand%stand%(of a person) to be in an upright position on the feet
+own%ōn%of, relating to, or belonging to oneself or itself (usually used after a possessive to emphasize the idea of ownership, interest, or relation conveyed by the possessive)
+page%pāj%one side of a leaf of something printed or written, as a book, manuscript, or letter
+should%shəd%simple past tense of shall
+country%kəntrē%a state or nation
+found%fau̇nd%simple past tense and past participle of find
+answer%ansər%a spoken or written reply or response to a question, request, letter, etc
+school%skül%an institution where instruction is given, especially to persons under college age
+grow%grō%to increase by natural development, as any living organism or part by assimilation of nutriment; increase in size or substance
+study%stədē%application of the mind to the acquisition of knowledge, as by reading, investigation, or reflection
+still%stil%remaining in place or at rest; motionless; stationary
+learn%lərn%to acquire knowledge of or skill in by study, instruction, or experience
+plant%plant%any member of the kingdom Plantae, comprising multicellular organisms that typically produce their own food from inorganic matter by the process of photosynthesis and that have more or less rigid cell walls containing cellulose, including vascular plants, mosses, liverworts, and hornworts: some classification schemes may include fungi, algae, bacteria, blue-green algae, and certain single-celled eukaryotes that have plantlike qualities, as rigid cell walls or photosynthesis
+cover%kəvər%to be or serve as a covering for; extend over; rest on the surface of.
+food%füd%any nourishing substance that is eaten, drunk, or otherwise taken into the body to sustain life, provide energy, promote growth, etc
+sun%sən%(often initial capital letter) the star that is the central body of the solar system, around which the planets revolve and from which they receive light and heat: its mean distance from the earth is about 93 million miles (150 million km), its diameter about 864,000 miles (1.4 million km), and its mass about 330,000 times that of the earth; its period of surface rotation is about 26 days at its equator but longer at higher latitudes.
+four%fȯr%a cardinal number, three plus one
+between%bitwēn%in the space separating
+state%stāt%the condition of a person or thing, as with respect to circumstances or attributes
+keep%kēp%to hold or retain in one's possession; hold as one's own
+eye%ī%the organ of sight, in vertebrates typically one of a pair of spherical bodies contained in an orbit of the skull and in humans appearing externally as a dense, white, curved membrane, or sclera, surrounding a circular, colored portion, or iris, that is covered by a clear, curved membrane, or cornea, and in the center of which is an opening, or pupil, through which light passes to the retina
+never%nevər%not ever; at no time
+last%last%occurring or coming after all others, as in time, order, or place
+let%let%to allow or permit
+thought%thȯt%the product of mental activity; that which one thinks.
+city%sitē%a large or important town.
+tree%trē%a plant having a permanently woody main stem or trunk, ordinarily growing to a considerable height, and usually developing branches at some distance from the ground
+cross%krȯs%a structure consisting essentially of an upright and a transverse piece, used to execute persons in ancient times
+farm%färm%a tract of land, usually with a house, barn, silo, etc., on which crops and often livestock are raised for livelihood
+hard%härd%not soft; solid and firm to the touch; unyielding to pressure and impenetrable or almost impenetrable
+start%stärt%to begin or set out, as on a journey or activity
+might%mīt%simple past tense of may
+story%stȯrē%a narrative, either true or fictitious, in prose or verse, designed to interest, amuse, or instruct the hearer or reader; tale
+saw%sȯ%a tool or device for cutting, typically a thin blade of metal with a series of sharp teeth
+far%fär%at or to a great distance; a long way off; at or to a remote point
+sea%sē%the salt waters that cover the greater part of the earth's surface
+draw%drȯ%to cause to move in a particular direction by or as if by a pulling force; pull; drag
+left%left%of, relating to, or located on or near the side of a person or thing that is turned toward the west when the subject is facing north (opposed to right
+late%lāt%occurring, coming, or being after the usual or proper time
+run%rən%to go quickly by moving the legs more rapidly than at a walk and in such a manner that for an instant in each step all or both feet are off the ground
+don't%dōnt%contraction of do not
+while%wīl%a period or interval of time
+press%pres%to act upon with steadily applied weight or force
+close%klōz%to put (something) in a position to obstruct an entrance, opening, etc.; shut
+night%nīt%the period of darkness between sunset and sunrise
+real%rēl%true; not merely ostensible, nominal, or apparent
+life%līf%the condition that distinguishes organisms from inorganic objects and dead organisms, being manifested by growth through metabolism, reproduction, and the power of adaptation to environment through changes originating internally
+few%fyü%not many but more than one
+north%nȯrth%a cardinal point of the compass, lying in the plane of the meridian and to the left of a person facing the rising sun
+open%ōpən%not closed or barred at the time, as a doorway by a door, a window by a sash, or a gateway by a gate
+seem%sēm%to appear to be, feel, do, etc.
+together%təgethər%into or in one gathering, company, mass, place, or body
+next%nekst%immediately following in time, order, importance, etc.
+white%hwīt%of the color of pure snow, of the margins of this page, etc.; reflecting nearly all the rays of sunlight or a similar light
+children%childrən%plural of child
+begin%bigin%to proceed to perform the first or earliest part of some action; commence; start
+got%gät%a simple past tense and past participle of get
+walk%wȯk%to advance or travel on foot at a moderate speed or pace; proceed by steps; move by advancing the feet alternately so that there is always one foot on the ground in bipedal locomotion and two or more feet on the ground in quadrupedal locomotion
+example%igzampəl%one of a number of things, or a part of something, taken to show the character of the whole
+ease%ēz%freedom from labor, pain, or physical annoyance; tranquil rest; comfort
+paper%pāpər%a substance made from wood pulp, rags, straw, or other fibrous material, usually in thin sheets, used to bear writing or printing, for wrapping things, etc
 group%grüp%therapy  n. therapy in which people are brought together to assist one another psychologically.
 always%ȯlwēz%adv. 1 at all times; on all occasions. 2 whatever the circumstances. 3 repeatedly, often. [from *all, *way]
 music%myüzik%stool  n. piano stool.
