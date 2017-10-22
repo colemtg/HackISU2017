@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b98e987-67a0-43df-a9ce-7d2decb4d0d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/classes/com/amazon/asksdk/helloworld/HelloWorldSpeechletRequestStreamHandler.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0-jar-with-dependencies.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0.jar" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/target/helloworld-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/HackISU2017.2.iml" afterPath="$PROJECT_DIR$/.idea/HackISU2017.2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java" afterPath="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ConsoleOutputTest/src/Main.java" afterPath="$PROJECT_DIR$/ConsoleOutputTest/src/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/Project/" />
     <ignored path="$PROJECT_DIR$/LearnSpellingAlexaProject/" />
@@ -21,16 +15,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="HelloWorldSpeechlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloWorldSpeechlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+            <state relative-caret-position="249">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1117#1118#0" expanded="true" />
                 <element signature="e#1161#1162#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConsoleOutputTest/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
               <folding>
                 <element signature="e#770#771#0" expanded="true" />
                 <element signature="e#807#808#0" expanded="true" />
@@ -141,11 +145,11 @@
         <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/Main.java" />
         <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java" />
         <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/build.gradle" />
-        <option value="$PROJECT_DIR$/ConsoleOutputTest/src/Main.java" />
         <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/WordDriver.java" />
         <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/Pool.java" />
         <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/Rule.java" />
         <option value="$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java" />
+        <option value="$PROJECT_DIR$/ConsoleOutputTest/src/Main.java" />
       </list>
     </option>
   </component>
@@ -393,12 +397,12 @@
       <option name="presentableId" value="Default" />
       <updated>1508605711497</updated>
       <workItem from="1508605715793" duration="22065000" />
-      <workItem from="1508631277637" duration="5387000" />
+      <workItem from="1508631277637" duration="7735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27452000" />
+    <option name="totallyTimeSpent" value="29800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="2" width="1931" height="1036" extended-state="0" />
@@ -545,14 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConsoleOutputTest/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="10" column="112" lean-forward="false" selection-start-line="10" selection-start-column="112" selection-end-line="10" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/WordDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -582,7 +578,7 @@
     <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/NotPool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="e#770#771#0" expanded="true" />
             <element signature="e#807#808#0" expanded="true" />
@@ -623,13 +619,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearnSpellingAlexaProject/src/com/amazon/asksdk/helloworld/HelloWorldSpeechlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        <state relative-caret-position="249">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1117#1118#0" expanded="true" />
             <element signature="e#1161#1162#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConsoleOutputTest/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>

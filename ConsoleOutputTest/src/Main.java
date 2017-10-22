@@ -23,15 +23,16 @@ public class Main {
         }
 
         notPool.sortWords();
-        //add first 200 and remove 200
-        for (int i = 0; i < 200; i++) {
+        //add first 100 and remove 100
+        for (int i = 0; i < 100; i++) {
             Pool.addWordToPool( NotPool.getWordsInPool().get(0));
         }
 
-        //Test for changing frequency on the consol
+        //Test for changing frequency on the console
         Scanner input =new Scanner(System.in);
         Word word;
         String in;
+
         System.out.print("Spell word: ");
         for(int i=0; i<1000; i++) {
             System.out.println("current frequency: " + Pool.getCurrentFrequency());
@@ -42,6 +43,7 @@ public class Main {
                         +" Frequency: " +Pool.getWordsInPool().get(j).getFrequency());
             }
             word = Pool.generateWord();
+            System.out.println("The total number of words is: "+Pool.getWordsInPool().size());
             System.out.println("difficulty: " +word.getDifficulty());
             System.out.println(word.getWord());
             in=input.nextLine();
