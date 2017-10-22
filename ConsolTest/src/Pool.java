@@ -1,7 +1,6 @@
 import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class Pool {
     private static ArrayList<Word> wordsInPool= new ArrayList<>();
@@ -91,7 +90,7 @@ public class Pool {
         }
         return newF;
     }
-
+    //generates the random number between 0 and the maximum frequency, using the frequencies as weights calculates the random word to be given to the user
     public static Word generateWord(){
         final SecureRandom generator = new SecureRandom();
         double randomNum = generator.nextDouble()*currentFrequency;
@@ -105,10 +104,12 @@ public class Pool {
         return null;
     }
     public static void addRuleToPool(Rule rule,Word word){
+        //adds word to the list if in the map
         if(rulesInPool.containsKey((rule.getHashCode())))
         {
             rulesInPool.get((rule.getHashCode())).add(word);
         }
+        //adds rule and word to the map
         else
         {
             rulesInPool.put((rule.getHashCode()),new ArrayList<Word>());

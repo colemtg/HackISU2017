@@ -1,6 +1,7 @@
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
 import java.net.URL;
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,7 +9,6 @@ public class Main {
         NotPool notPool = new NotPool();
         try {
             URL file = new URL("https://raw.githubusercontent.com/colemtg/HackISU2017/master/words-pros-defs.txt");
-            //FileReader file = new FileReader("https://raw.githubusercontent.com/colemtg/HackISU2017/master/words-pros-defs.txt");
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(file.openStream()));
             String line;
             int commonality = 1;
@@ -23,29 +23,14 @@ public class Main {
         }
 
         notPool.sortWords();
-        Pool pool = new Pool();
-        //add first 100 and remove 100
+        //add first 200 and remove 200
         for (int i = 0; i < 200; i++) {
             Pool.addWordToPool( NotPool.getWordsInPool().get(0));
         }
 
+        //Test for changing frequency on the consol
         Scanner input =new Scanner(System.in);
         Word word;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
         String in;
         System.out.print("Spell word: ");
         for(int i=0; i<1000; i++) {
@@ -54,7 +39,7 @@ public class Main {
             for(int j =0;j<Pool.getWordsInPool().size(); j++ )
             {
                 System.out.println("Word: " +Pool.getWordsInPool().get(j).getWord()
-                +" Frequency: " +Pool.getWordsInPool().get(j).getFrequency());
+                        +" Frequency: " +Pool.getWordsInPool().get(j).getFrequency());
             }
             word = Pool.generateWord();
             System.out.println("difficulty: " +word.getDifficulty());
@@ -63,7 +48,5 @@ public class Main {
             System.out.println(word.getWord().equals(in));
             Pool.update(word,in.equals(word.getWord()));
         }
-
-
     }
 }

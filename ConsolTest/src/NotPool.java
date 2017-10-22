@@ -1,10 +1,11 @@
-import java.security.SecureRandom;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.TreeMap;
 
 public class NotPool {
     private static ArrayList<Word> wordsInPool= new ArrayList<>();
     private static HashMap<Integer, ArrayList<Word> > rulesInPool = new HashMap<>();
-
+    //same as pool class
     public static void addRuleToPool(Rule rule,Word word){
         if(rulesInPool.containsKey((rule.getHashCode())))
         {
@@ -36,7 +37,7 @@ public class NotPool {
         returnList.addAll(sortMap.values());
         this.wordsInPool=returnList;
     }
-
+    //called in pool class to remove word in the pool and the word in the rule that is being removed
     public static void removeWord(Word word){
         wordsInPool.remove(word);
         for (int i=0; i<word.getRules().size(); i++){
