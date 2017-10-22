@@ -27,6 +27,9 @@ public class HelloWorldSpeechlet implements Speechlet
     // The Word selected from the pool
     private Word currentWord;
 
+    // Are we in the middle of a game?
+    private boolean hasStartedGame = false;
+
     // Create the pool of available words
     public HelloWorldSpeechlet()
     {
@@ -62,9 +65,18 @@ public class HelloWorldSpeechlet implements Speechlet
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
 
-        if ("GuessLetterIntent".equals(intentName))
+        if ("LearnSpellingIntent".equals(intentName) && !hasStartedGame)
+        {
+            hasStartedGame = true; // User is only allowed to say this intent to start the game
+            return startSpellingLesson();
+        }
+        else if ("GuessLetterIntent".equals(intentName))
         {
             return getLetterInWord(intent.getSlot("Letter").getValue());
+        }
+        else if ("AMAZON.HelpIntent".equals(intentName))
+        {
+            return getHelpResponse();
         }
         else if ("GiveDefinitionIntent".equals(intentName))
         {
@@ -74,25 +86,13 @@ public class HelloWorldSpeechlet implements Speechlet
         {
             return userIsDoneGuessingWord();
         }
-        else if ("LearnSpellingIntent".equals(intentName))
-        {
-            return startSpellingLesson();
-        }
-        else if ("HelloWorldIntent".equals(intentName))
-        {
-            return getHelloResponse();
-        }
-        else if ("AMAZON.HelpIntent".equals(intentName))
-        {
-            return getHelpResponse();
-        }
         else if ("AMAZON.StopIntent".equals(intentName))
         {
             return endLesson();
         }
-        else
+        else // Default to help response
         {
-            throw new SpeechletException("Invalid Intent");
+            return getHelpResponse();
         }
     }
 
@@ -132,7 +132,7 @@ public class HelloWorldSpeechlet implements Speechlet
         currentWord = Pool.generateWord();
         wordToGuess = currentWord.getWord();
 
-        final String wordToSpell = ".. Please spell, " + wordToGuess + " for me.";
+        final String wordToSpell = ".. Please spell the word " + wordToGuess + ".";
         speechText += wordToSpell;
 
         // Create the plain text output.
@@ -216,21 +216,18 @@ public class HelloWorldSpeechlet implements Speechlet
         return getWordToSpell(speechText); // Start with a new word again
     }
 
-    // Say hello to the user
-    private SpeechletResponse getHelloResponse()
-    {
-        String speechText = "Hello hack I S U";
-
-        PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
-        speech.setText(speechText);
-
-        return SpeechletResponse.newTellResponse(speech);
-    }
-
     // If the user doesn't know what the current word is
     private SpeechletResponse getHelpResponse()
     {
-        final String speechText = "The current word to spell is " + currentWord.getWord();
+        final String speechText;
+        if(currentWord != null)
+        {
+            speechText = "The current word to spell is " + currentWord.getWord();
+        }
+        else
+        {
+            speechText = "There is no word to spell right now";
+        }
 
         PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
         speech.setText(speechText);
@@ -244,7 +241,15 @@ public class HelloWorldSpeechlet implements Speechlet
     // Tell the user the definition
     private SpeechletResponse giveDefinition()
     {
-        final String speechText = "The definition of " + currentWord.getWord() + " is " + currentWord.getDefinitions();
+        final String speechText;
+        if(currentWord != null)
+        {
+            speechText = "The definition of " + currentWord.getWord() + " is " + currentWord.getDefinitions();
+        }
+        else
+        {
+            speechText = "There is no word to spell right now";
+        }
 
         PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
         speech.setText(speechText);

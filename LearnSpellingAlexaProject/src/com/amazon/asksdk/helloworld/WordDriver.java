@@ -6,7 +6,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 
-public class WordDriver {
+public class WordDriver
+{
     public static void initializeWords()
     {
         //start by making 1000 words and adding them to the "not" pool
@@ -31,7 +32,7 @@ public class WordDriver {
         Pool pool = new Pool();
         //add first 100 and remove 100
 
-        for (int i = 0; i < 200; i++) {
+        for (int i = 0; i < 100; i++) {
             Pool.addWordToPool( NotPool.getWordsInPool().get(0));
         }
 

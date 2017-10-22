@@ -29,7 +29,7 @@ public class Pool {
                     currentFrequency=currentFrequency-(oldF-tempF);
                 }
                 //limit this in some way
-                if(word.getFrequency()<.33) //5 incidental instances
+                if(word.getFrequency() < 0.60) //5 incidental instances
                 {
                     if (NotPool.getRulesInPool().containsKey(word.getRules().get(i).getHashCode())) //if notPool has rule
                     {

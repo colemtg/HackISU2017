@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/ConsolTest/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ConsolTest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ConsoleOutputTest/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/LearnSpellingAlexaProject" />
     </content>
     <content url="file://$MODULE_DIR$/ConsolTest" />
