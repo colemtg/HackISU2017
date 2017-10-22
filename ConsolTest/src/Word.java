@@ -109,6 +109,8 @@ public class Word {
     }
 
     private void setDifficulty() {
+        //3 different components of difficulty to return a difficulty between 0-10
+        //length 25% commonality 20% and pronunciation 55%
         double lengthDiff = 2.5*((double)word.length()/(double)10);
         double commonDiff = (double)2*Math.pow(1000,(double)commonality/(double)1000)/(double)1000;
         double pronDiff = 5.5*compare();
@@ -120,10 +122,6 @@ public class Word {
     public ArrayList<Rule> getRulesForWord(){
         return rules;
     }
-    public int getCommonality() {
-        return commonality;
-    }
-
     public double getStartingFrequency() {
         return startingFrequency;
     }
